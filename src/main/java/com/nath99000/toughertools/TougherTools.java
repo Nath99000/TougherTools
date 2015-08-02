@@ -24,8 +24,8 @@ public class TougherTools {
     public void preInit(FMLPreInitializationEvent preinit){
         LogHelper.info("PreInitialization beginning!");
         //
-        Recipes.init();
         ModItems.init();
+        Recipes.init();
         LogHelper.info("PreInitalization complete!");
     }
     @Mod.EventHandler
