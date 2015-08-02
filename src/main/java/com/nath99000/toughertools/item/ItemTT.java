@@ -13,7 +13,6 @@ public class ItemTT extends Item
     public ItemTT()
     {
         super();
-        this.setMaxDamage(50);
         this.setCreativeTab(TTTab.TTTab);
     }
 

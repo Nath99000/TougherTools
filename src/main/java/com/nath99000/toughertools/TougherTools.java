@@ -3,6 +3,7 @@ package com.nath99000.toughertools;
 import com.nath99000.toughertools.Reference.Reference;
 import com.nath99000.toughertools.Util.LogHelper;
 import com.nath99000.toughertools.init.ModItems;
+import com.nath99000.toughertools.init.Recipes;
 import com.nath99000.toughertools.proxy.IProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -23,6 +24,7 @@ public class TougherTools {
     public void preInit(FMLPreInitializationEvent preinit){
         LogHelper.info("PreInitialization beginning!");
         //
+        Recipes.init();
         ModItems.init();
         LogHelper.info("PreInitalization complete!");
     }
