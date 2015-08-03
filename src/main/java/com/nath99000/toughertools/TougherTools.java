@@ -4,6 +4,7 @@ import com.nath99000.toughertools.Reference.Reference;
 import com.nath99000.toughertools.Util.LogHelper;
 import com.nath99000.toughertools.init.ModItems;
 import com.nath99000.toughertools.init.Recipes;
+import com.nath99000.toughertools.init.VanillaHandler;
 import com.nath99000.toughertools.proxy.IProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -25,6 +26,7 @@ public class TougherTools {
         LogHelper.info("PreInitialization beginning!");
         //
         ModItems.init();
+        VanillaHandler.init();
         Recipes.init();
         LogHelper.info("PreInitalization complete!");
     }

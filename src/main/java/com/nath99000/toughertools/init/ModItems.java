@@ -11,8 +11,15 @@ public class ModItems
     public static final  ItemTT BindingL1 = new ItemBindingL1();
     public static final ItemTT HeadW1 = new ItemToolHeadW1();
     public static Item.ToolMaterial Wood1 = EnumHelper.addToolMaterial("Wood1", 0, 20, 0.5F, 0.0F, 1);
+    public static Item.ToolMaterial Wood2 = EnumHelper.addToolMaterial("Wood1", 0, 35, 01.0F, 0.5F, 3);
     public static Item PickW1;
     public static final ItemTT StoneCutter = new ItemStoneCutter();
+    public static final ItemTT HeadW2 = new ItemToolHeadW2();
+    public static final ItemTT BindingL2 = new ItemBindingL2();
+    public static Item PickW2;
+    public static final ItemTT StoneShard = new ItemStoneShard();
+
+
 
     public static void  init()
     {
@@ -21,6 +28,9 @@ public class ModItems
         GameRegistry.registerItem(HeadW1, "HeadW1");
         GameRegistry.registerItem(PickW1 = new ItemPickW1("PickW1", Wood1), "PickW1");
         GameRegistry.registerItem(StoneCutter, "StoneCutter");
-
+        GameRegistry.registerItem(HeadW2, "HeadW2");
+        GameRegistry.registerItem(BindingL2, "BindingL2");
+        GameRegistry.registerItem(PickW2 = new ItemPickW2("PickW2", Wood2), "PickW2");
+        GameRegistry.registerItem(StoneShard, "StoneShard");
     }
 }

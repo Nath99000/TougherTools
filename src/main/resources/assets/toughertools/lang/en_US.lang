@@ -1,4 +1,8 @@
 item.toughertools:LeatherStrips.name=Leather strips
 item.toughertools:BindingL1.name=Leather binding
-item.toughertools:ToolHeadW1.name=Wooden pickaxe head
+item.toughertools:ToolHeadW1.name=Wooden tool head
 item.PickW1.name=Leather-bound wooden pickaxe
+item.toughertools:StoneCutter.name=Stone cutter
+item.toughertools:BindingL2.name=Leather binding
+item.toughertools:ToolHeadW2.name=Wooden tool head
+item.PickW2.name=Leather-bound wooden pickaxe
