@@ -18,6 +18,9 @@ public class ModItems
     public static final ItemTT BindingL2 = new ItemBindingL2();
     public static Item PickW2;
     public static final ItemTT StoneShard = new ItemStoneShard();
+    public static final ItemTT PlateW1 = new ItemToolPlateW1();
+    public static final ItemTT PlateW2 = new ItemToolPlateW2();
+    public static final ItemTT Scraper = new ItemScraper();
 
 
 
@@ -32,5 +35,8 @@ public class ModItems
         GameRegistry.registerItem(BindingL2, "BindingL2");
         GameRegistry.registerItem(PickW2 = new ItemPickW2("PickW2", Wood2), "PickW2");
         GameRegistry.registerItem(StoneShard, "StoneShard");
+        GameRegistry.registerItem(PlateW1, "PlateW1");
+        GameRegistry.registerItem(PlateW2, "PlateW2");
+        GameRegistry.registerItem(Scraper, "Scraper");
     }
 }

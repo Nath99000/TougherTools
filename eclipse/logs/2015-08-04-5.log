@@ -1,0 +1,22 @@
+[18:55:04] [main/INFO]: Setting user: Player591
+[18:55:06] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:55:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[18:55:17] [Sound Library Loader/INFO]: Sound engine started
+[18:55:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:55:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:55:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[18:55:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:55:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:55:21] [Sound Library Loader/INFO]: Sound engine started
+[18:55:26] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:55:26] [Server thread/INFO]: Generating keypair
+[18:55:27] [Server thread/INFO]: Preparing start region for level 0
+[18:55:27] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:55:28] [Server thread/INFO]: Player591[local:E:0f670835] logged in with entity id 3 at (1025.4558848687577, 57.0, -2460.7482676039103)
+[18:55:28] [Server thread/INFO]: Player591 joined the game
+[18:55:31] [Server thread/INFO]: Player591 has just earned the achievement [Taking Inventory]
+[18:55:31] [Client thread/INFO]: [CHAT] Player591 has just earned the achievement [Taking Inventory]
+[18:55:56] [Server thread/INFO]: Saving and pausing game...
+[18:55:56] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[18:55:56] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[18:55:56] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
