@@ -1,0 +1,19 @@
+[
+{
+"modid": "TougherTools",
+"name": "TougherTools",
+"description": "Literally.Harder-to-craft, but more rewarding, tools.",
+"version": "1.7.10",
+"credits": "Mod by Nath99000",
+"logoFile": "",
+"mcversion": "",
+"url": "https://sites.google.com/site/nath99000sminecraftpage/home/toughertools",
+"updateUrl": "",
+"authors": [ "Nath99000" ],
+"parent":"",
+"screenshots": [],
+"dependencies": [
+"mod_MinecraftForge"
+]
+}
+]

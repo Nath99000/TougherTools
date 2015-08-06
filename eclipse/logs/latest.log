@@ -1,0 +1,33 @@
+[18:12:08] [main/INFO]: Setting user: Player844
+[18:12:10] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:12:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[18:12:20] [Sound Library Loader/INFO]: Sound engine started
+[18:12:22] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:12:22] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:12:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[18:12:23] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:12:23] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:12:24] [Sound Library Loader/INFO]: Sound engine started
+[18:13:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:13:02] [Server thread/INFO]: Generating keypair
+[18:13:03] [Server thread/INFO]: Preparing start region for level 0
+[18:13:03] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:13:04] [Server thread/INFO]: Player844[local:E:b5e8e985] logged in with entity id 3 at (1028.6740551693952, 57.0, -2459.0208730560553)
+[18:13:04] [Server thread/INFO]: Player844 joined the game
+[18:13:05] [Server thread/INFO]: Saving and pausing game...
+[18:13:05] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[18:13:05] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[18:13:05] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[18:13:06] [Server thread/INFO]: Player844 has just earned the achievement [Taking Inventory]
+[18:13:06] [Client thread/INFO]: [CHAT] Player844 has just earned the achievement [Taking Inventory]
+[18:13:21] [Server thread/INFO]: Saving and pausing game...
+[18:13:21] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[18:13:21] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[18:13:21] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[18:13:27] [Client thread/INFO]: Stopping!
+[18:13:27] [Server thread/INFO]: Stopping server
+[18:13:27] [Server thread/INFO]: Saving players
+[18:13:27] [Server thread/INFO]: Saving worlds
+[18:13:27] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[18:13:27] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[18:13:27] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
