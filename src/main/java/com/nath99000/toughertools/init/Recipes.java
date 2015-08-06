@@ -18,14 +18,11 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.Scraper), " BR", " S ", "S  ", 'B', new ItemStack(ModItems.BindingL1), 'R', new ItemStack(ModItems.StoneShard), 'S', new ItemStack(Items.stick));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.BindingL2), new ItemStack(ModItems.BindingL1), new ItemStack(ModItems.Scraper));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.HeadW2), new ItemStack(ModItems.HeadW1), new ItemStack(Items.stick), new ItemStack(ModItems.StoneShard));
-<<<<<<< HEAD
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.Plank, 2), new ItemStack(Blocks.planks), new ItemStack(Items.flint));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.PlateW1), new ItemStack(Items.flint), new ItemStack(ModItems.Plank));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.PlateW2), new ItemStack(ModItems.PlateW1), new ItemStack(ModItems.StoneShard), new ItemStack(ModItems.Scraper));
         GameRegistry.addRecipe(new ItemStack(ModItems.PickW2), "HBH", " S ", " S ", 'H', new ItemStack(ModItems.HeadW2), 'B', new ItemStack(ModItems.BindingL2), 'S', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.AxeW1), "HB ", "PS ", " S ", 'H', new ItemStack(ModItems.HeadW1), 'B', new ItemStack(ModItems.BindingL1), 'P', new ItemStack(ModItems.PlateW1), 'S', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.ShovelW1), " P ", " B ", " S ", 'B', new ItemStack(ModItems.BindingL1), 'P', new ItemStack(ModItems.PlateW1), 'S', new ItemStack(Items.stick));
-=======
->>>>>>> 8f6a66dfbd9e9e44ed99479dc8921ef21455089e
     }
 }
