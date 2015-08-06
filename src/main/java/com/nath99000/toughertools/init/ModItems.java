@@ -21,9 +21,12 @@ public class ModItems
     public static final ItemTT PlateW1 = new ItemToolPlateW1();
     public static final ItemTT PlateW2 = new ItemToolPlateW2();
     public static final ItemTT Scraper = new ItemScraper();
+<<<<<<< HEAD
     public static final ItemTT Plank = new ItemPlank();
     public static Item AxeW1;
     public static Item ShovelW1;
+=======
+>>>>>>> 8f6a66dfbd9e9e44ed99479dc8921ef21455089e
 
 
 
@@ -41,8 +44,11 @@ public class ModItems
         GameRegistry.registerItem(PlateW1, "PlateW1");
         GameRegistry.registerItem(PlateW2, "PlateW2");
         GameRegistry.registerItem(Scraper, "Scraper");
+<<<<<<< HEAD
         GameRegistry.registerItem(Plank, "Plank");
         GameRegistry.registerItem(AxeW1 = new ItemAxeW1("AxeW1", Wood1), "AxeW1");
         GameRegistry.registerItem(ShovelW1 = new ItemShovelW1("ShovelW1", Wood1), "ShovelW1");
+=======
+>>>>>>> 8f6a66dfbd9e9e44ed99479dc8921ef21455089e
     }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [18:12:08] [main/INFO]: Setting user: Player844
 [18:12:10] [Client thread/INFO]: LWJGL Version: 2.9.1
 [18:12:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
@@ -31,3 +32,38 @@
 [18:13:27] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
 [18:13:27] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
 [18:13:27] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+=======
+[19:03:20] [main/INFO]: Setting user: Player553
+[19:03:22] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:03:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[19:03:34] [Sound Library Loader/INFO]: Sound engine started
+[19:03:36] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:03:36] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:03:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[19:03:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:03:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:03:38] [Sound Library Loader/INFO]: Sound engine started
+[19:03:49] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[19:03:49] [Server thread/INFO]: Generating keypair
+[19:03:49] [Server thread/INFO]: Preparing start region for level 0
+[19:03:50] [Server thread/INFO]: Changing view distance to 12, from 10
+[19:03:51] [Server thread/INFO]: Player553[local:E:67574240] logged in with entity id 3 at (1016.8069783152821, 57.0, -2468.68030707035)
+[19:03:51] [Server thread/INFO]: Player553 joined the game
+[19:03:56] [Server thread/INFO]: Player553 has just earned the achievement [Taking Inventory]
+[19:03:56] [Client thread/INFO]: [CHAT] Player553 has just earned the achievement [Taking Inventory]
+[19:04:15] [Server thread/INFO]: Saving and pausing game...
+[19:04:15] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[19:04:15] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[19:04:15] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[19:05:00] [Server thread/INFO]: Saving and pausing game...
+[19:05:00] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[19:05:00] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[19:05:00] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[19:05:01] [Server thread/INFO]: Stopping server
+[19:05:01] [Server thread/INFO]: Saving players
+[19:05:01] [Server thread/INFO]: Saving worlds
+[19:05:01] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[19:05:01] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[19:05:01] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[19:05:02] [Client thread/INFO]: Stopping!
+>>>>>>> 8f6a66dfbd9e9e44ed99479dc8921ef21455089e
