@@ -24,5 +24,6 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.PickW2), "HBH", " S ", " S ", 'H', new ItemStack(ModItems.HeadW2), 'B', new ItemStack(ModItems.BindingL2), 'S', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.AxeW1), "HB ", "PS ", " S ", 'H', new ItemStack(ModItems.HeadW1), 'B', new ItemStack(ModItems.BindingL1), 'P', new ItemStack(ModItems.PlateW1), 'S', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.ShovelW1), " P ", " B ", " S ", 'B', new ItemStack(ModItems.BindingL1), 'P', new ItemStack(ModItems.PlateW1), 'S', new ItemStack(Items.stick));
+        GameRegistry.addRecipe(new ItemStack(ModItems.Snowballlauncher), "OOO", " WO", " BR", 'O', new ItemStack(Blocks.obsidian), 'W', new ItemStack(Items.water_bucket), 'B', new ItemStack(Blocks.stone_button), 'R', new ItemStack(Items.blaze_rod));
     }
 }

@@ -1,6 +1,15 @@
 package com.nath99000.toughertools.init;
 
 import com.nath99000.toughertools.item.*;
+import com.nath99000.toughertools.item.Axes.ItemAxeW1;
+import com.nath99000.toughertools.item.Hoes.ItemHoeW1;
+import com.nath99000.toughertools.item.Materials.*;
+import com.nath99000.toughertools.item.Pickaxes.ItemPickW1;
+import com.nath99000.toughertools.item.Pickaxes.ItemPickW2;
+import com.nath99000.toughertools.item.Shovels.ItemShovelW1;
+import com.nath99000.toughertools.item.Tools.ItemScraper;
+import com.nath99000.toughertools.item.Tools.ItemStoneCutter;
+import com.nath99000.toughertools.item.Weaponry.ItemSnowBallLauncher;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
@@ -24,6 +33,8 @@ public class ModItems
     public static final ItemTT Plank = new ItemPlank();
     public static Item AxeW1;
     public static Item ShovelW1;
+    public static Item HoeW1;
+    public static ItemTT Snowballlauncher = new ItemSnowBallLauncher();
 
 
 
@@ -45,6 +56,7 @@ public class ModItems
         GameRegistry.registerItem(Plank, "Plank");
         GameRegistry.registerItem(AxeW1 = new ItemAxeW1("AxeW1", Wood1), "AxeW1");
         GameRegistry.registerItem(ShovelW1 = new ItemShovelW1("ShovelW1", Wood1), "ShovelW1");
-
+        GameRegistry.registerItem(HoeW1 = new ItemHoeW1("HoeW1", Wood1), "HoeW1");
+        GameRegistry.registerItem(Snowballlauncher, "Snowballlauncher");
     }
 }
