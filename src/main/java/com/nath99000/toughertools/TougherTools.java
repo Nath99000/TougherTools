@@ -11,6 +11,9 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.crafting.FurnaceRecipes;
 
 @Mod(modid = Reference.Id, name = Reference.Name, version = Reference.Version)
 public class TougherTools {

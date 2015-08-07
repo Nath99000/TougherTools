@@ -5,6 +5,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.CraftingManager;
+import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.item.crafting.IRecipe;
 import java.util.Iterator;
 import java.util.List;
@@ -75,6 +76,7 @@ public class VanillaHandler {
             if (itemStack != null && itemStack.getItem() == Items.diamond_hoe)
                 remover.remove();
             //miscellaneous
+
         }
     }
 }

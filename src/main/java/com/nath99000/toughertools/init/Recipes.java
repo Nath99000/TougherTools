@@ -25,5 +25,9 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.AxeW1), "HB ", "PS ", " S ", 'H', new ItemStack(ModItems.HeadW1), 'B', new ItemStack(ModItems.BindingL1), 'P', new ItemStack(ModItems.PlateW1), 'S', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.ShovelW1), " P ", " B ", " S ", 'B', new ItemStack(ModItems.BindingL1), 'P', new ItemStack(ModItems.PlateW1), 'S', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.Snowballlauncher), "OOO", " WO", " BR", 'O', new ItemStack(Blocks.obsidian), 'W', new ItemStack(Items.water_bucket), 'B', new ItemStack(Blocks.stone_button), 'R', new ItemStack(Items.blaze_rod));
+        GameRegistry.addSmelting(new ItemStack(Items.rotten_flesh), new ItemStack(Items.leather), 1F);
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.Snowclip), new ItemStack(Items.stick), new ItemStack(Items.stick), new ItemStack(Blocks.snow), new ItemStack(Blocks.snow), new ItemStack(Items.gunpowder));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.BladeW1), new ItemStack(Items.stick), new ItemStack(Items.stick), new ItemStack(Items.flint));
+        GameRegistry.addRecipe(new ItemStack(ModItems.SwordW1), " B ", "SLS", " S ", 'B', new ItemStack(ModItems.BladeW1), 'S', new ItemStack(Items.stick), 'L', new ItemStack(ModItems.BindingL1));
     }
 }

@@ -10,12 +10,29 @@ item.toughertools:StoneShard.name=Stone shard
 item.toughertools:PlateW1.name=Wooden plate
 item.toughertools:PlateW2.name=Wooden plate
 item.toughertools:Scraper.name=Stone scraper
-<<<<<<< HEAD
 item.toughertools:Plank.name=Wooden plank
 item.toughertools:
 item.AxeW1.name=Leather-bound wooden axe
 item.ShovelW1.name=Leather-bound wooden shovel
-=======
+item.toughertools:Snowclip.name=Snow clip
+item.toughertools:Snowballlauncher.name=SnowBall launcher
+item.HoeW1.name=Leather-bound wooden hoe
+item.toughertools:BladeW1.name=Wooden blade
+item.toughertools:WandcoreW1.name=Wooden wand core
 item.toughertools:
 item.toughertools:
->>>>>>> 8f6a66dfbd9e9e44ed99479dc8921ef21455089e
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+
+

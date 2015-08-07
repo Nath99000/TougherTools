@@ -1,15 +1,21 @@
 package com.nath99000.toughertools.init;
 
 import com.nath99000.toughertools.item.*;
+import com.nath99000.toughertools.item.Ammunition.ItemSnowClip;
 import com.nath99000.toughertools.item.Axes.ItemAxeW1;
+import com.nath99000.toughertools.item.Axes.ItemAxeW2;
 import com.nath99000.toughertools.item.Hoes.ItemHoeW1;
+import com.nath99000.toughertools.item.Hoes.ItemHoeW2;
+import com.nath99000.toughertools.item.*;
 import com.nath99000.toughertools.item.Materials.*;
 import com.nath99000.toughertools.item.Pickaxes.ItemPickW1;
 import com.nath99000.toughertools.item.Pickaxes.ItemPickW2;
 import com.nath99000.toughertools.item.Shovels.ItemShovelW1;
+import com.nath99000.toughertools.item.Shovels.ItemShovelW2;
 import com.nath99000.toughertools.item.Tools.ItemScraper;
 import com.nath99000.toughertools.item.Tools.ItemStoneCutter;
 import com.nath99000.toughertools.item.Weaponry.ItemSnowBallLauncher;
+import com.nath99000.toughertools.item.Weaponry.ItemSwordW1;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
@@ -35,9 +41,13 @@ public class ModItems
     public static Item ShovelW1;
     public static Item HoeW1;
     public static ItemTT Snowballlauncher = new ItemSnowBallLauncher();
-
-
-
+    public static ItemTT BladeW1 = new ItemToolBladeW1();
+    public static ItemTT Snowclip = new ItemSnowClip();
+    public static ItemTT WandcoreW1 = new ItemWandcoreW1();
+    public static Item SwordW1;
+    public static Item ShovelW2;
+    public static Item AxeW2;
+    public static Item HoeW2;
 
     public static void  init()
     {
@@ -58,5 +68,13 @@ public class ModItems
         GameRegistry.registerItem(ShovelW1 = new ItemShovelW1("ShovelW1", Wood1), "ShovelW1");
         GameRegistry.registerItem(HoeW1 = new ItemHoeW1("HoeW1", Wood1), "HoeW1");
         GameRegistry.registerItem(Snowballlauncher, "Snowballlauncher");
+        GameRegistry.registerItem(BladeW1, "BladeW1");
+        GameRegistry.registerItem(Snowclip, "Snowclip");
+        GameRegistry.registerItem(WandcoreW1, "WandcoreW1");
+        GameRegistry.registerItem(SwordW1 = new ItemSwordW1("SwordW1", Wood1), "SwordW1");
+        GameRegistry.registerItem(ShovelW2 = new ItemShovelW2("ShovelW2", Wood2), "ShovelW2");
+        GameRegistry.registerItem(AxeW2 = new ItemAxeW2("AxeW2", Wood2), "AxeW2");
+        GameRegistry.registerItem(HoeW2 = new ItemHoeW2("HoeW2", Wood2), "HoeW2");
+
     }
 }
