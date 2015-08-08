@@ -2,18 +2,15 @@ package com.nath99000.toughertools;
 
 import com.nath99000.toughertools.Reference.Reference;
 import com.nath99000.toughertools.Util.LogHelper;
-import com.nath99000.toughertools.init.ModItems;
-import com.nath99000.toughertools.init.Recipes;
-import com.nath99000.toughertools.init.VanillaHandler;
+import com.nath99000.toughertools.init.*;
 import com.nath99000.toughertools.proxy.IProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-import net.minecraft.item.crafting.FurnaceRecipes;
+import cpw.mods.fml.common.network.NetworkRegistry;
+import net.minecraft.tileentity.TileEntity;
 
 @Mod(modid = Reference.Id, name = Reference.Name, version = Reference.Version)
 public class TougherTools {
@@ -28,6 +25,7 @@ public class TougherTools {
     public void preInit(FMLPreInitializationEvent preinit){
         LogHelper.info("PreInitialization beginning!");
         //
+        ModBlocks.init();
         ModItems.init();
         VanillaHandler.init();
         Recipes.init();
@@ -37,6 +35,8 @@ public class TougherTools {
     public void Init(FMLInitializationEvent init){
         LogHelper.info("Initialization beginning!");
         //
+        com.nath99000.toughertools.init.TileEntity.init();
+        NetworkRegistry.INSTANCE.registerGuiHandler(this, new GuiHandler());
         LogHelper.info("Initialization complete!");
     }
     @Mod.EventHandler

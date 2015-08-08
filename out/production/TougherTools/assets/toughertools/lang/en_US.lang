@@ -15,18 +15,18 @@ item.toughertools:
 item.AxeW1.name=Leather-bound wooden axe
 item.ShovelW1.name=Leather-bound wooden shovel
 item.toughertools:Snowclip.name=Snow clip
-item.toughertools:Snowballlauncher.name=SnowBall launcher
+item.toughertools:Snowballlauncher.name=§5SnowBall launcher
 item.HoeW1.name=Leather-bound wooden hoe
 item.toughertools:BladeW1.name=Wooden blade
 item.toughertools:WandcoreW1.name=Wooden wand core
-item.toughertools:
-item.toughertools:
-item.toughertools:
-item.toughertools:
-item.toughertools:
-item.toughertools:
-item.toughertools:
-item.toughertools:
+tile.SmelterIdle.name=§8Smelter
+tile.SmelterActive.name=§8Smelter
+item.SwordW1.name=Leather-bound wooden sword
+item.ShovelW1.name=Leather-bound wooden shovel
+item.AxeW1.name=Leather-bound wooden axe
+item.HoeW1.name=Leather-bound wooden hoe
+item.SwordW2.name=Leather-bound wooden sword
+item.toughertools:DartGun.name=§2MiniDart gun
 item.toughertools:
 item.toughertools:
 item.toughertools:

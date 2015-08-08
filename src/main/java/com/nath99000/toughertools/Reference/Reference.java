@@ -3,6 +3,7 @@ package com.nath99000.toughertools.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
+import scala.Function;
 import scala.reflect.internal.Constants;
 
 import java.lang.reflect.Method;
@@ -16,5 +17,5 @@ public class Reference
     public static final String Id = "TougherTools";
     public static final String Name = "Tougher Tools";
     public static final String Version = "1.7.10-10";
-    //public static Method tag = public void addInformation(ItemStack par1, EntityPlayer par2, List par3, boolean par4) {{par3.add("Well made");}}
+    //public static Function tag = public void addInformation(ItemStack par1, EntityPlayer par2, List par3, boolean par4) {{par3.add("Well made");}}
 }

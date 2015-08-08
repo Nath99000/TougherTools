@@ -29,5 +29,11 @@ public class Recipes
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.Snowclip), new ItemStack(Items.stick), new ItemStack(Items.stick), new ItemStack(Blocks.snow), new ItemStack(Blocks.snow), new ItemStack(Items.gunpowder));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.BladeW1), new ItemStack(Items.stick), new ItemStack(Items.stick), new ItemStack(Items.flint));
         GameRegistry.addRecipe(new ItemStack(ModItems.SwordW1), " B ", "SLS", " S ", 'B', new ItemStack(ModItems.BladeW1), 'S', new ItemStack(Items.stick), 'L', new ItemStack(ModItems.BindingL1));
+        GameRegistry.addRecipe(new ItemStack(ModItems.AxeW2), "HB ", "PS ", " S ", 'H', new ItemStack(ModItems.HeadW2), 'B', new ItemStack(ModItems.BindingL2), 'P', new ItemStack(ModItems.PlateW2), 'S', new ItemStack(Items.stick));
+        GameRegistry.addRecipe(new ItemStack(ModItems.ShovelW2), " P ", " B ", " S ", 'B', new ItemStack(ModItems.BindingL2), 'P', new ItemStack(ModItems.PlateW2), 'S', new ItemStack(Items.stick));
+        GameRegistry.addRecipe(new ItemStack(ModItems.HoeW1), "HB ", " S ", " S ", 'H', new ItemStack(ModItems.HeadW1), 'B', new ItemStack(ModItems.BindingL1), 'S', new ItemStack(Items.stick));
+        GameRegistry.addRecipe(new ItemStack(ModItems.HoeW2), "HB ", " S ", " S ", 'H', new ItemStack(ModItems.HeadW2), 'B', new ItemStack(ModItems.BindingL2), 'S', new ItemStack(Items.stick));
+        GameRegistry.addShapelessRecipe(new ItemStack(Items.flint, 4), new ItemStack(Blocks.gravel));
+
     }
 }

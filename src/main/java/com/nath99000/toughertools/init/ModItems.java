@@ -14,8 +14,10 @@ import com.nath99000.toughertools.item.Shovels.ItemShovelW1;
 import com.nath99000.toughertools.item.Shovels.ItemShovelW2;
 import com.nath99000.toughertools.item.Tools.ItemScraper;
 import com.nath99000.toughertools.item.Tools.ItemStoneCutter;
+import com.nath99000.toughertools.item.Weaponry.ItemDartGun;
 import com.nath99000.toughertools.item.Weaponry.ItemSnowBallLauncher;
 import com.nath99000.toughertools.item.Weaponry.ItemSwordW1;
+import com.nath99000.toughertools.item.Weaponry.ItemSwordW2;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
@@ -48,6 +50,8 @@ public class ModItems
     public static Item ShovelW2;
     public static Item AxeW2;
     public static Item HoeW2;
+    public static Item SwordW2;
+    public static ItemTT DartGun = new ItemDartGun();
 
     public static void  init()
     {
@@ -75,6 +79,7 @@ public class ModItems
         GameRegistry.registerItem(ShovelW2 = new ItemShovelW2("ShovelW2", Wood2), "ShovelW2");
         GameRegistry.registerItem(AxeW2 = new ItemAxeW2("AxeW2", Wood2), "AxeW2");
         GameRegistry.registerItem(HoeW2 = new ItemHoeW2("HoeW2", Wood2), "HoeW2");
-
+        GameRegistry.registerItem(SwordW2 = new ItemSwordW2("SwordW2", Wood2), "SwordW2");
+        GameRegistry.registerItem(DartGun, "DartGun");
     }
 }
