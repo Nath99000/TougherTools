@@ -22,17 +22,24 @@ item.toughertools:WandcoreW1.name=Wooden wand core
 tile.SmelterIdle.name=§8Smelter
 tile.SmelterActive.name=§8Smelter
 item.SwordW1.name=Leather-bound wooden sword
-item.ShovelW1.name=Leather-bound wooden shovel
-item.AxeW1.name=Leather-bound wooden axe
-item.HoeW1.name=Leather-bound wooden hoe
+item.ShovelW2.name=Leather-bound wooden shovel
+item.AxeW2.name=Leather-bound wooden axe
+item.HoeW2.name=Leather-bound wooden hoe
 item.SwordW2.name=Leather-bound wooden sword
 item.toughertools:DartGun.name=§2MiniDart gun
-item.toughertools:
-item.toughertools:
-item.toughertools:
-item.toughertools:
-item.toughertools:
-item.toughertools:
-item.toughertools:
-
+item.SwordW3.name=Iron-bound wooden sword
+item.SwordW4.name=§6Gilded wooden sword
+item.SwordW5.name=§3Diamond-bound wooden sword
+item.PickW3.name=Iron-bound wooden pickaxe
+item.PickW4.name=§6Gilded wooden pickaxe
+item.PickW5.name=§3Diamond-bound wooden pickaxe
+item.HoeW3.name=Iron-bound wooden hoe
+item.HoeW4.name=§6Gilded wooden hoe
+item.HoeW5.name=§3Diamond-bound wooden hoe
+item.ShovelW3.name=Iron-bound wooden shovel
+item.ShovelW4.name=§6Gilded wooden shovel
+item.ShovelW5.name=§3Diamond-bound wooden shovel
+item.AxeW3.name=Iron-bound wooden axe
+item.AxeW4.name=§6Gilded wooden axe
+item.AxeW5.name=§3Diamond-bound wooden axe
 

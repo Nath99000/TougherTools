@@ -34,6 +34,7 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.HoeW1), "HB ", " S ", " S ", 'H', new ItemStack(ModItems.HeadW1), 'B', new ItemStack(ModItems.BindingL1), 'S', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.HoeW2), "HB ", " S ", " S ", 'H', new ItemStack(ModItems.HeadW2), 'B', new ItemStack(ModItems.BindingL2), 'S', new ItemStack(Items.stick));
         GameRegistry.addShapelessRecipe(new ItemStack(Items.flint, 4), new ItemStack(Blocks.gravel));
+        GameRegistry.addRecipe(new ItemStack(ModItems.DartGun), "  L", "L L", " LV", 'L', new ItemStack(ModItems.Plank), 'V', new ItemStack(Blocks.leaves));
 
     }
 }

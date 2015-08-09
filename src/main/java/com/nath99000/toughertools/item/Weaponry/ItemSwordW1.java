@@ -1,5 +1,6 @@
 package com.nath99000.toughertools.item.Weaponry;
 
+import assets.toughertools.lang.Names;
 import com.nath99000.toughertools.Reference.Reference;
 import com.nath99000.toughertools.creativetab.TTTab;
 import net.minecraft.entity.player.EntityPlayer;
@@ -18,7 +19,7 @@ public class ItemSwordW1 extends ItemSword{
     public void addInformation(ItemStack par1, EntityPlayer par2, List par3, boolean par4)
     {
         {
-            par3.add("Poorly made");
+            par3.add(Names.T1);
         }
     }
 }

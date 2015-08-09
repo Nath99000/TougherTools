@@ -4,20 +4,13 @@ import com.nath99000.toughertools.item.*;
 import com.nath99000.toughertools.item.Ammunition.ItemSnowClip;
 import com.nath99000.toughertools.item.Axes.ItemAxeW1;
 import com.nath99000.toughertools.item.Axes.ItemAxeW2;
-import com.nath99000.toughertools.item.Hoes.ItemHoeW1;
-import com.nath99000.toughertools.item.Hoes.ItemHoeW2;
-import com.nath99000.toughertools.item.*;
+import com.nath99000.toughertools.item.Hoes.*;
 import com.nath99000.toughertools.item.Materials.*;
-import com.nath99000.toughertools.item.Pickaxes.ItemPickW1;
-import com.nath99000.toughertools.item.Pickaxes.ItemPickW2;
-import com.nath99000.toughertools.item.Shovels.ItemShovelW1;
-import com.nath99000.toughertools.item.Shovels.ItemShovelW2;
-import com.nath99000.toughertools.item.Tools.ItemScraper;
-import com.nath99000.toughertools.item.Tools.ItemStoneCutter;
-import com.nath99000.toughertools.item.Weaponry.ItemDartGun;
-import com.nath99000.toughertools.item.Weaponry.ItemSnowBallLauncher;
-import com.nath99000.toughertools.item.Weaponry.ItemSwordW1;
-import com.nath99000.toughertools.item.Weaponry.ItemSwordW2;
+import com.nath99000.toughertools.item.Pickaxes.*;
+import com.nath99000.toughertools.item.Shovels.*;
+import com.nath99000.toughertools.item.Tools.*;
+import com.nath99000.toughertools.item.Axes.*;
+import com.nath99000.toughertools.item.Weaponry.*;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
@@ -29,6 +22,9 @@ public class ModItems
     public static final ItemTT HeadW1 = new ItemToolHeadW1();
     public static Item.ToolMaterial Wood1 = EnumHelper.addToolMaterial("Wood1", 0, 20, 0.5F, 0.0F, 1);
     public static Item.ToolMaterial Wood2 = EnumHelper.addToolMaterial("Wood1", 0, 35, 01.0F, 0.5F, 3);
+    public static Item.ToolMaterial Wood3 = EnumHelper.addToolMaterial("Wood3", 0, 59, 2.0F, 0.7F, 7);
+    public static Item.ToolMaterial Wood4 = EnumHelper.addToolMaterial("Wood4", 0, 73, 2.5f, 1.0F, 10);
+    public static Item.ToolMaterial Wood5 = EnumHelper.addToolMaterial("Wood5", 0, 100, 3F, 1.3F, 13);
     public static Item PickW1;
     public static final ItemTT StoneCutter = new ItemStoneCutter();
     public static final ItemTT HeadW2 = new ItemToolHeadW2();
@@ -52,6 +48,21 @@ public class ModItems
     public static Item HoeW2;
     public static Item SwordW2;
     public static ItemTT DartGun = new ItemDartGun();
+    public static Item SwordW3;
+    public static Item SwordW4;
+    public static Item SwordW5;
+    public static Item PickW3;
+    public static Item PickW4;
+    public static Item PickW5;
+    public static Item HoeW3;
+    public static Item HoeW4;
+    public static Item HoeW5;
+    public static Item AxeW3;
+    public static Item AxeW4;
+    public static Item AxeW5;
+    public static Item ShovelW3;
+    public static Item ShovelW4;
+    public static Item ShovelW5;
 
     public static void  init()
     {
@@ -81,5 +92,21 @@ public class ModItems
         GameRegistry.registerItem(HoeW2 = new ItemHoeW2("HoeW2", Wood2), "HoeW2");
         GameRegistry.registerItem(SwordW2 = new ItemSwordW2("SwordW2", Wood2), "SwordW2");
         GameRegistry.registerItem(DartGun, "DartGun");
+        GameRegistry.registerItem(SwordW3 = new ItemSwordW3("SwordW3", Wood3), "SwordW3");
+        GameRegistry.registerItem(SwordW4 = new ItemSwordW4("SwordW4", Wood4), "SwordW4");
+        GameRegistry.registerItem(SwordW5 = new ItemSwordW5("SwordW5", Wood5), "SwordW5");
+        GameRegistry.registerItem(PickW3 = new ItemPickW3("PickW3", Wood3), "PickW3");
+        GameRegistry.registerItem(PickW4 = new ItemPickW4("PickW4", Wood4), "PickW4");
+        GameRegistry.registerItem(PickW5 = new ItemPickW5("PickW5", Wood5), "PickW5");
+        GameRegistry.registerItem(HoeW3 = new ItemHoeW3("HoeW3", Wood3), "HoeW3");
+        GameRegistry.registerItem(HoeW4 = new ItemHoeW4("HoeW4", Wood4), "HoeW4");
+        GameRegistry.registerItem(HoeW5 = new ItemHoeW5("HoeW5", Wood5), "HoeW5");
+        GameRegistry.registerItem(AxeW3 = new ItemAxeW3("AxeW3", Wood3), "AxeW3");
+        GameRegistry.registerItem(AxeW4 = new ItemAxeW4("AxeW4", Wood4), "AxeW4");
+        GameRegistry.registerItem(AxeW5 = new ItemAxeW5("AxeW5", Wood5), "AxeW5");
+        GameRegistry.registerItem(ShovelW3 = new ItemShovelW3("ShovelW3", Wood3), "ShovelW3");
+        GameRegistry.registerItem(ShovelW4 = new ItemShovelW4("ShovelW4", Wood4), "ShovelW4");
+        GameRegistry.registerItem(ShovelW5 = new ItemShovelW5("ShovelW5", Wood5), "ShovelW5");
+
     }
 }
