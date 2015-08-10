@@ -7,6 +7,8 @@ import com.nath99000.toughertools.item.Axes.ItemAxeW2;
 import com.nath99000.toughertools.item.Hoes.*;
 import com.nath99000.toughertools.item.Materials.*;
 import com.nath99000.toughertools.item.Pickaxes.*;
+import com.nath99000.toughertools.item.Pickaxes.NightVision.ItemPickW4NV;
+import com.nath99000.toughertools.item.Pickaxes.NightVision.ItemPickW5NV;
 import com.nath99000.toughertools.item.Shovels.*;
 import com.nath99000.toughertools.item.Tools.*;
 import com.nath99000.toughertools.item.Axes.*;
@@ -20,11 +22,16 @@ public class ModItems
     public static final ItemTT LeatherStrips = new ItemLeatherStrips();
     public static final  ItemTT BindingL1 = new ItemBindingL1();
     public static final ItemTT HeadW1 = new ItemToolHeadW1();
-    public static Item.ToolMaterial Wood1 = EnumHelper.addToolMaterial("Wood1", 0, 20, 0.5F, 0.0F, 1);
-    public static Item.ToolMaterial Wood2 = EnumHelper.addToolMaterial("Wood1", 0, 35, 01.0F, 0.5F, 3);
-    public static Item.ToolMaterial Wood3 = EnumHelper.addToolMaterial("Wood3", 0, 59, 2.0F, 0.7F, 7);
-    public static Item.ToolMaterial Wood4 = EnumHelper.addToolMaterial("Wood4", 0, 73, 2.5f, 1.0F, 10);
-    public static Item.ToolMaterial Wood5 = EnumHelper.addToolMaterial("Wood5", 0, 100, 3F, 1.3F, 13);
+    public static Item.ToolMaterial Wood1 = EnumHelper.addToolMaterial("Wood1", 0, 20, 1F, 0.0F, 0);
+    public static Item.ToolMaterial Wood2 = EnumHelper.addToolMaterial("Wood1", 0, 35, 2F, 0.5F, 0);
+    public static Item.ToolMaterial Wood3 = EnumHelper.addToolMaterial("Wood3", 0, 59, 3F, 0.7F, 0);
+    public static Item.ToolMaterial Wood4 = EnumHelper.addToolMaterial("Wood4", 0, 73, 4f, 1.0F, 0);
+    public static Item.ToolMaterial Wood5 = EnumHelper.addToolMaterial("Wood5", 0, 100, 5F, 1.3F, 0);
+    public static Item.ToolMaterial Stone1 = EnumHelper.addToolMaterial("Stone1", 1, 85, 2F, 1.2F, 0);
+    public static Item.ToolMaterial Stone2 = EnumHelper.addToolMaterial("Stone2", 1, 100, 3F, 1.4F, 0);
+    public static Item.ToolMaterial Stone3 = EnumHelper.addToolMaterial("Stone3", 1, 110, 4F, 1.6F, 0);
+    public static Item.ToolMaterial Stone4 = EnumHelper.addToolMaterial("Stone4", 1, 120, 5F, 1.8F, 0);
+    public static Item.ToolMaterial Stone5 = EnumHelper.addToolMaterial("Stone5", 1, 135, 6F, 2.0F, 0);
     public static Item PickW1;
     public static final ItemTT StoneCutter = new ItemStoneCutter();
     public static final ItemTT HeadW2 = new ItemToolHeadW2();
@@ -63,6 +70,13 @@ public class ModItems
     public static Item ShovelW3;
     public static Item ShovelW4;
     public static Item ShovelW5;
+    public static Item PickS1;
+    public static Item PickS2;
+    public static Item PickS3;
+    public static Item PickS4;
+    public static Item PickS5;
+    public static Item PickW5nv;
+    public static Item PickW4nv;
 
     public static void  init()
     {
@@ -107,6 +121,12 @@ public class ModItems
         GameRegistry.registerItem(ShovelW3 = new ItemShovelW3("ShovelW3", Wood3), "ShovelW3");
         GameRegistry.registerItem(ShovelW4 = new ItemShovelW4("ShovelW4", Wood4), "ShovelW4");
         GameRegistry.registerItem(ShovelW5 = new ItemShovelW5("ShovelW5", Wood5), "ShovelW5");
-
+        GameRegistry.registerItem(PickS1 = new ItemPickS1("PickS1", Stone1), "PickS1");
+        GameRegistry.registerItem(PickS2 = new ItemPickS2("PickS2", Stone2), "PickS2");
+        GameRegistry.registerItem(PickS3 = new ItemPickS3("PickS3", Stone3), "PickS3");
+        GameRegistry.registerItem(PickS4 = new ItemPickS4("PickS4", Stone4), "PickS4");
+        GameRegistry.registerItem(PickS5 = new ItemPickS5("PickS5", Stone5), "PickS5");
+        GameRegistry.registerItem(PickW5nv = new ItemPickW5NV("PickW5nv", Wood5), "PickW5nv");
+        GameRegistry.registerItem(PickW4nv = new ItemPickW4NV("PickW4nv", Wood4), "PickW4nv");
     }
 }
