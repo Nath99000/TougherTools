@@ -29,6 +29,7 @@ public class ItemPickW4NV extends ItemPickaxe{
 
     public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player){
         player.addPotionEffect((new PotionEffect(Potion.nightVision.getId(), 500, 1)));
+        itemStack.damageItem(1, player);
         return itemStack;
     }
 }

@@ -32,6 +32,7 @@ public class ModItems
     public static Item.ToolMaterial Stone3 = EnumHelper.addToolMaterial("Stone3", 1, 110, 4F, 1.6F, 0);
     public static Item.ToolMaterial Stone4 = EnumHelper.addToolMaterial("Stone4", 1, 120, 5F, 1.8F, 0);
     public static Item.ToolMaterial Stone5 = EnumHelper.addToolMaterial("Stone5", 1, 135, 6F, 2.0F, 0);
+    public static Item.ToolMaterial cleaver = EnumHelper.addToolMaterial("cleaver", 0, 1500, 0F, 5.0F, 0);
     public static Item PickW1;
     public static final ItemTT StoneCutter = new ItemStoneCutter();
     public static final ItemTT HeadW2 = new ItemToolHeadW2();
@@ -77,6 +78,7 @@ public class ModItems
     public static Item PickS5;
     public static Item PickW5nv;
     public static Item PickW4nv;
+    public static Item Cleaver;
 
     public static void  init()
     {
@@ -128,5 +130,6 @@ public class ModItems
         GameRegistry.registerItem(PickS5 = new ItemPickS5("PickS5", Stone5), "PickS5");
         GameRegistry.registerItem(PickW5nv = new ItemPickW5NV("PickW5nv", Wood5), "PickW5nv");
         GameRegistry.registerItem(PickW4nv = new ItemPickW4NV("PickW4nv", Wood4), "PickW4nv");
+        GameRegistry.registerItem(Cleaver = new ItemCleaver("Cleaver", cleaver), "Cleaver");
     }
 }

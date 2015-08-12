@@ -12,7 +12,7 @@ public class ItemDartGun extends ItemTT {
     public ItemDartGun() {
         super();
         setUnlocalizedName("DartGun");
-        setMaxDamage(150);
+        setMaxDamage(43);
         this.setFull3D();
     }
 

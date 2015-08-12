@@ -8,4 +8,5 @@ public class Names {
     public static String T2 = ("§8Well made");
     public static String T1 = ("§8Poorly made");
     public static String NightVision = ("§1Vision");
+    public static String legendary = ("§5Legendary");
 }
