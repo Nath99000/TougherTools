@@ -10,6 +10,8 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 
 @Mod(modid = Reference.Id, name = Reference.Name, version = Reference.Version)
@@ -28,6 +30,7 @@ public class TougherTools {
         ModBlocks.init();
         ModItems.init();
         VanillaHandler.init();
+        VanillaHandler.smelting();
         Recipes.init();
         LogHelper.info("PreInitalization complete!");
     }

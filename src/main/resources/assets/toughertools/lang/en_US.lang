@@ -44,4 +44,8 @@ item.AxeW4.name=§6Gilded wooden axe
 item.AxeW5.name=§3Diamond-bound wooden axe
 item.PickW5nv.name=§3Diamond-bound wooden pickaxe
 item.Cleaver.name=Cleaver
+item.toughertools:IronOre.name=Iron ore chunk
+item.toughertools:GoldOre.name=Gold ore chunk
+item.toughertools:DiamondChunk.name=Diamond chunk
+item.toughertools:SteelChunk.name=Chunk o' steel
 

@@ -260,7 +260,7 @@ Details:
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Ammunition
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Axes
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Hoes
-[09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Materials
+[09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Items
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Pickaxes
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Shovels
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Tools

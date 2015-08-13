@@ -37,5 +37,6 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.DartGun), "  L", "L L", " LV", 'L', new ItemStack(ModItems.Plank), 'V', new ItemStack(Blocks.leaves));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.PickW5nv), new ItemStack(ModItems.PickW5), new ItemStack(Items.ender_eye), new ItemStack(Items.golden_carrot));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.PickW4nv), new ItemStack(ModItems.PickW4), new ItemStack(Items.ender_eye), new ItemStack(Items.golden_carrot));
+        GameRegistry.addSmelting(new ItemStack(Items.quartz), new ItemStack(ModItems.Crusher), 1.0F);
     }
 }

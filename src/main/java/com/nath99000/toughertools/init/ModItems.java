@@ -5,7 +5,11 @@ import com.nath99000.toughertools.item.Ammunition.ItemSnowClip;
 import com.nath99000.toughertools.item.Axes.ItemAxeW1;
 import com.nath99000.toughertools.item.Axes.ItemAxeW2;
 import com.nath99000.toughertools.item.Hoes.*;
-import com.nath99000.toughertools.item.Materials.*;
+import com.nath99000.toughertools.item.Items.*;
+import com.nath99000.toughertools.item.Materials.DiamondChunk;
+import com.nath99000.toughertools.item.Materials.GoldOre;
+import com.nath99000.toughertools.item.Materials.IronOre;
+import com.nath99000.toughertools.item.Materials.SteelChunk;
 import com.nath99000.toughertools.item.Pickaxes.*;
 import com.nath99000.toughertools.item.Pickaxes.NightVision.ItemPickW4NV;
 import com.nath99000.toughertools.item.Pickaxes.NightVision.ItemPickW5NV;
@@ -79,6 +83,11 @@ public class ModItems
     public static Item PickW5nv;
     public static Item PickW4nv;
     public static Item Cleaver;
+    public static ItemTT IronOre = new IronOre();
+    public static ItemTT GoldOre = new GoldOre();
+    public static ItemTT DiamondChunk = new DiamondChunk();
+    public static ItemTT Crusher = new ItemCrusher();
+    public static ItemTT SteelChunk = new SteelChunk();
 
     public static void  init()
     {
@@ -131,5 +140,10 @@ public class ModItems
         GameRegistry.registerItem(PickW5nv = new ItemPickW5NV("PickW5nv", Wood5), "PickW5nv");
         GameRegistry.registerItem(PickW4nv = new ItemPickW4NV("PickW4nv", Wood4), "PickW4nv");
         GameRegistry.registerItem(Cleaver = new ItemCleaver("Cleaver", cleaver), "Cleaver");
+        GameRegistry.registerItem(IronOre, "IronOre");
+        GameRegistry.registerItem(GoldOre, "GoldOre");
+        GameRegistry.registerItem(DiamondChunk, "DiamondChunk");
+        GameRegistry.registerItem(Crusher, "Crusher");
+        GameRegistry.registerItem(SteelChunk, "SteelChunk");
     }
 }

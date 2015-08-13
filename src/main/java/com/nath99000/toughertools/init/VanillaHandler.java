@@ -9,6 +9,7 @@ import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.item.crafting.IRecipe;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 public class VanillaHandler {
 
@@ -75,8 +76,69 @@ public class VanillaHandler {
                 remover.remove();
             if (itemStack != null && itemStack.getItem() == Items.diamond_hoe)
                 remover.remove();
-            //miscellaneous
+            //armor
+            if (itemStack != null && itemStack.getItem() == Items.leather_boots)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.leather_helmet)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.leather_chestplate)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.leather_leggings)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.iron_boots)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.iron_leggings)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.iron_chestplate)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.iron_helmet)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.golden_boots)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.golden_leggings)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.golden_chestplate)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.golden_helmet)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.diamond_helmet)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.diamond_chestplate)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.diamond_leggings)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.diamond_boots)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.chainmail_boots)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.chainmail_chestplate)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.chainmail_helmet)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.chainmail_leggings)
+                remover.remove();
 
         }
+    }
+    public static void removeFurnaceRecipe (ItemStack resultItem)
+    {
+        Map<ItemStack, ItemStack> recipes = FurnaceRecipes.smelting().getSmeltingList();
+        for (Iterator<Map.Entry<ItemStack,ItemStack>> entries = recipes.entrySet().iterator(); entries.hasNext(); ){
+            Map.Entry<ItemStack,ItemStack> entry = entries.next();
+            ItemStack result = entry.getValue();
+            if (ItemStack.areItemStacksEqual(result, resultItem)){ // If the output matches the specified ItemStack,
+                entries.remove(); // Remove the recipe
+            }
+        }
+    }
+
+    public static void smelting(){
+        VanillaHandler.removeFurnaceRecipe(new ItemStack(Items.iron_ingot));
+        VanillaHandler.removeFurnaceRecipe(new ItemStack(Items.gold_ingot));
+        VanillaHandler.removeFurnaceRecipe(new ItemStack(Items.diamond));
+        VanillaHandler.removeFurnaceRecipe(new ItemStack(Items.emerald));
+        VanillaHandler.removeFurnaceRecipe(new ItemStack(Items.coal));
+        VanillaHandler.removeFurnaceRecipe(new ItemStack(Items.redstone));
+        VanillaHandler.removeFurnaceRecipe(new ItemStack(Items.quartz));
     }
 }

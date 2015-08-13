@@ -1,33 +1,29 @@
-[19:28:32] [main/INFO]: Setting user: Player364
-[19:28:34] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:28:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
-[19:28:46] [Sound Library Loader/INFO]: Sound engine started
-[19:28:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:28:49] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[19:28:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
-[19:28:49] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:28:49] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[19:28:50] [Sound Library Loader/INFO]: Sound engine started
-[19:29:03] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:29:03] [Server thread/INFO]: Generating keypair
-[19:29:03] [Server thread/INFO]: Preparing start region for level 0
-[19:29:04] [Server thread/INFO]: Changing view distance to 12, from 10
-[19:29:06] [Server thread/INFO]: Player364[local:E:25383122] logged in with entity id 30 at (1016.6171343492176, 57.0, -2469.2060695886407)
-[19:29:06] [Server thread/INFO]: Player364 joined the game
-[19:29:10] [Server thread/INFO]: Player364 has just earned the achievement [Taking Inventory]
-[19:29:10] [Client thread/INFO]: [CHAT] Player364 has just earned the achievement [Taking Inventory]
-[19:29:45] [Server thread/INFO]: [Player364: Set own game mode to Survival Mode]
-[19:29:45] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:29:59] [Server thread/INFO]: [Player364: Set own game mode to Creative Mode]
-[19:29:59] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:30:30] [Server thread/INFO]: Saving and pausing game...
-[19:30:30] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[19:30:30] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[19:30:30] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[19:30:31] [Server thread/INFO]: Stopping server
-[19:30:31] [Server thread/INFO]: Saving players
-[19:30:31] [Server thread/INFO]: Saving worlds
-[19:30:31] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[19:30:31] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[19:30:31] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[19:30:32] [Client thread/INFO]: Stopping!
+[20:28:44] [main/INFO]: Setting user: Player24
+[20:28:47] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:29:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[20:29:02] [Sound Library Loader/INFO]: Sound engine started
+[20:29:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:29:05] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[20:29:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[20:29:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:29:06] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[20:29:07] [Sound Library Loader/INFO]: Sound engine started
+[20:29:19] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:29:19] [Server thread/INFO]: Generating keypair
+[20:29:19] [Server thread/INFO]: Preparing start region for level 0
+[20:29:20] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:29:21] [Server thread/INFO]: Player24[local:E:db566626] logged in with entity id 30 at (1026.9569481418303, 57.0, -2476.0077103606654)
+[20:29:21] [Server thread/INFO]: Player24 joined the game
+[20:29:23] [Server thread/INFO]: Player24 has just earned the achievement [Taking Inventory]
+[20:29:23] [Client thread/INFO]: [CHAT] Player24 has just earned the achievement [Taking Inventory]
+[20:29:52] [Server thread/INFO]: Saving and pausing game...
+[20:29:52] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[20:29:53] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[20:29:53] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[20:29:53] [Server thread/INFO]: Stopping server
+[20:29:53] [Server thread/INFO]: Saving players
+[20:29:53] [Server thread/INFO]: Saving worlds
+[20:29:53] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[20:29:53] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[20:29:53] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[20:29:54] [Client thread/INFO]: Stopping!
