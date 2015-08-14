@@ -25,6 +25,7 @@ public class ItemCleaver extends ItemSword {
         this.setUnlocalizedName(Cleaver);
         this.setTextureName(Reference.Id + ":" + Cleaver);
     }
+
     public void addInformation(ItemStack par1, EntityPlayer par2, List par3, boolean par4)
     {
         {

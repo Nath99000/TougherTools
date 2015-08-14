@@ -9,4 +9,8 @@ public class Names {
     public static String T1 = ("§8Poorly made");
     public static String NightVision = ("§1Vision");
     public static String legendary = ("§5Legendary");
+    public static String godly = ("§6Godly");
+    public static String epic = ("§1Epic");
+    public static String rare = ("§2Rare");
+    public static String common = ("§7Common");
 }

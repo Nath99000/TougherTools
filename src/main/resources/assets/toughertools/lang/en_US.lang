@@ -48,4 +48,13 @@ item.toughertools:IronOre.name=Iron ore chunk
 item.toughertools:GoldOre.name=Gold ore chunk
 item.toughertools:DiamondChunk.name=Diamond chunk
 item.toughertools:SteelChunk.name=Chunk o' steel
-
+item.toughertools:Crusher.name=Crusher
+item.toughertools:Schematic.name=Schematic
+item.toughertools:SteelIngot.name=Steel ingot
+item.PickW4nv.name=§6Gilded wooden pickaxe
+item.PickS1.name=Leather-bound stone pickaxe
+item.PickS2.name=Leather-bound stone pickaxe
+item.PickS3.name=Iron-bound stone pickaxe
+item.PickS4.name=§6Gilded stone pickaxe
+item.PickS5.name=§3Diamond-bound stone pickaxe
+tile.toughertools:SteelBlock.name=Block o' steel

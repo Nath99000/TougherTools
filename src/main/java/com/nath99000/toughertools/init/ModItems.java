@@ -10,6 +10,7 @@ import com.nath99000.toughertools.item.Materials.DiamondChunk;
 import com.nath99000.toughertools.item.Materials.GoldOre;
 import com.nath99000.toughertools.item.Materials.IronOre;
 import com.nath99000.toughertools.item.Materials.SteelChunk;
+import com.nath99000.toughertools.item.Miscellaneous.ItemSteelIngot;
 import com.nath99000.toughertools.item.Pickaxes.*;
 import com.nath99000.toughertools.item.Pickaxes.NightVision.ItemPickW4NV;
 import com.nath99000.toughertools.item.Pickaxes.NightVision.ItemPickW5NV;
@@ -88,6 +89,11 @@ public class ModItems
     public static ItemTT DiamondChunk = new DiamondChunk();
     public static ItemTT Crusher = new ItemCrusher();
     public static ItemTT SteelChunk = new SteelChunk();
+    public static SchematicTT SchematicCleaver = new ItemSchematic("Cleaver");
+    public static SchematicTT SchematicSnowZooka = new ItemSchematic("SnowballLauncher");
+    public static SchematicTT SchematicDartgun = new ItemSchematic("Dartgun");
+    public static ItemTT steel = new ItemSteelIngot();
+
 
     public static void  init()
     {
@@ -145,5 +151,9 @@ public class ModItems
         GameRegistry.registerItem(DiamondChunk, "DiamondChunk");
         GameRegistry.registerItem(Crusher, "Crusher");
         GameRegistry.registerItem(SteelChunk, "SteelChunk");
+        GameRegistry.registerItem(SchematicCleaver, "SchematicCleaver");
+        GameRegistry.registerItem(SchematicSnowZooka, "SchematicSnowZooka");
+        GameRegistry.registerItem(SchematicDartgun, "SchematicDartgun");
+        GameRegistry.registerItem(steel, "steel");
     }
 }
