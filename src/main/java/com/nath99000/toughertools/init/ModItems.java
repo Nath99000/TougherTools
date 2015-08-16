@@ -1,9 +1,9 @@
 package com.nath99000.toughertools.init;
 
-import com.nath99000.toughertools.item.*;
 import com.nath99000.toughertools.item.Ammunition.ItemSnowClip;
 import com.nath99000.toughertools.item.Axes.ItemAxeW1;
 import com.nath99000.toughertools.item.Axes.ItemAxeW2;
+import com.nath99000.toughertools.item.Casts.Cast;
 import com.nath99000.toughertools.item.Hoes.*;
 import com.nath99000.toughertools.item.Items.*;
 import com.nath99000.toughertools.item.Materials.DiamondChunk;
@@ -18,6 +18,10 @@ import com.nath99000.toughertools.item.Shovels.*;
 import com.nath99000.toughertools.item.Tools.*;
 import com.nath99000.toughertools.item.Axes.*;
 import com.nath99000.toughertools.item.Weaponry.*;
+import com.nath99000.toughertools.item.Weaponry.ASchematic;
+import com.nath99000.toughertools.item.Wrapper.ItemSwordTT;
+import com.nath99000.toughertools.item.Wrapper.ItemTT;
+import com.nath99000.toughertools.item.Wrapper.SchematicTT;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
@@ -27,6 +31,7 @@ public class ModItems
     public static final ItemTT LeatherStrips = new ItemLeatherStrips();
     public static final  ItemTT BindingL1 = new ItemBindingL1();
     public static final ItemTT HeadW1 = new ItemToolHeadW1();
+    //toolmaterials
     public static Item.ToolMaterial Wood1 = EnumHelper.addToolMaterial("Wood1", 0, 20, 1F, 0.0F, 0);
     public static Item.ToolMaterial Wood2 = EnumHelper.addToolMaterial("Wood1", 0, 35, 2F, 0.5F, 0);
     public static Item.ToolMaterial Wood3 = EnumHelper.addToolMaterial("Wood3", 0, 59, 3F, 0.7F, 0);
@@ -38,6 +43,9 @@ public class ModItems
     public static Item.ToolMaterial Stone4 = EnumHelper.addToolMaterial("Stone4", 1, 120, 5F, 1.8F, 0);
     public static Item.ToolMaterial Stone5 = EnumHelper.addToolMaterial("Stone5", 1, 135, 6F, 2.0F, 0);
     public static Item.ToolMaterial cleaver = EnumHelper.addToolMaterial("cleaver", 0, 1500, 0F, 5.0F, 0);
+    public static Item.ToolMaterial Dagger = EnumHelper.addToolMaterial("Dagger", 0, 150, 0F, 1.8F, 0);
+    public static Item.ToolMaterial Arcanesword = EnumHelper.addToolMaterial("Arcanesword", 0, 325, 0f, 3.1F, 0);
+    public static Item.ToolMaterial Plasmablade = EnumHelper.addToolMaterial("Plasmablade", 0, 525, 0f, 3F, 0);
     public static Item PickW1;
     public static final ItemTT StoneCutter = new ItemStoneCutter();
     public static final ItemTT HeadW2 = new ItemToolHeadW2();
@@ -89,10 +97,23 @@ public class ModItems
     public static ItemTT DiamondChunk = new DiamondChunk();
     public static ItemTT Crusher = new ItemCrusher();
     public static ItemTT SteelChunk = new SteelChunk();
-    public static SchematicTT SchematicCleaver = new ItemSchematic("Cleaver");
-    public static SchematicTT SchematicSnowZooka = new ItemSchematic("SnowballLauncher");
-    public static SchematicTT SchematicDartgun = new ItemSchematic("Dartgun");
+    public static SchematicTT SchematicCleaver = new ASchematic("Cleaver");
+    public static SchematicTT SchematicSnowZooka = new ASchematic("SnowballLauncher");
+    public static SchematicTT SchematicDartgun = new ASchematic("Dartgun");
     public static ItemTT steel = new ItemSteelIngot();
+    public static Item dagger;
+    public static Item daggerAssasin;
+    public static SchematicTT SchematicAssasin = new ASchematic("DaggerAssasin");
+    public static Item CastIronInlay = new Cast("Iron", "Inlay");
+    public static Item CastGoldInlay = new Cast("Gold", "Inlay");
+    public static Item CastIronplate = new Cast("Iron", "Plate");
+    public static Item CastGoldplate = new Cast("Gold", "Plate");
+    public static ItemSwordTT arcanesword;
+    public static SchematicTT SchematicArcanesword = new ASchematic("Arcanesword");
+    public static Item PlasmaBlade;
+    public static Item SchematicPlasmablade = new ASchematic("Plasmablade");
+    public static Item StaffLightning = new ItemLightningStaff();
+    public static Item SchematicLightning = new ASchematic("LightningStaff");
 
 
     public static void  init()
@@ -155,5 +176,18 @@ public class ModItems
         GameRegistry.registerItem(SchematicSnowZooka, "SchematicSnowZooka");
         GameRegistry.registerItem(SchematicDartgun, "SchematicDartgun");
         GameRegistry.registerItem(steel, "steel");
+        GameRegistry.registerItem(dagger = new ItemDagger(Dagger, "Dagger"), "Dagger");
+        GameRegistry.registerItem(daggerAssasin = new ItemAssasinDagger(Dagger, "DaggerAssasin"), "DaggerAssasin");
+        GameRegistry.registerItem(SchematicAssasin, "SchematicAssasin");
+        GameRegistry.registerItem(CastIronInlay, "CastIronInlay");
+        GameRegistry.registerItem(CastGoldInlay, "CastGoldInlay");
+        GameRegistry.registerItem(CastIronplate, "CastIronplate");
+        GameRegistry.registerItem(CastGoldplate, "CastGoldplate");
+        GameRegistry.registerItem(arcanesword = new ItemArcaneSword(Arcanesword, "Arcanesword"), "Arcanesword");
+        GameRegistry.registerItem(SchematicArcanesword, "SchematicArcanesword");
+        GameRegistry.registerItem(PlasmaBlade = new ItemPlasmaBlade(Plasmablade, "PlasmaBlade"), "PlasmaBlade");
+        GameRegistry.registerItem(SchematicPlasmablade, "SchematicPlasmablade");
+        GameRegistry.registerItem(StaffLightning, "StaffLightning");
+        GameRegistry.registerItem(SchematicLightning, "SchematicLightning");
     }
 }

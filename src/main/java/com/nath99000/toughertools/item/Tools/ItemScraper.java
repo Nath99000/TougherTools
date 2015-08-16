@@ -1,6 +1,6 @@
 package com.nath99000.toughertools.item.Tools;
 
-import com.nath99000.toughertools.item.ItemTT;
+import com.nath99000.toughertools.item.Wrapper.ItemTT;
 
 public class ItemScraper extends ItemTT {
     public ItemScraper(){

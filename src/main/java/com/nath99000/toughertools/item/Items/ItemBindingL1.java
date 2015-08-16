@@ -1,6 +1,6 @@
 package com.nath99000.toughertools.item.Items;
 
-import com.nath99000.toughertools.item.ItemTT;
+import com.nath99000.toughertools.item.Wrapper.ItemTT;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 

@@ -20,4 +20,32 @@ public class TTTab
             return "TougherTools";
         }
     };
+
+    public static final CreativeTabs TabSchematic = new CreativeTabs(Reference.Id)
+    {
+        @Override
+        public Item getTabIconItem()
+        {
+            return ModItems.SchematicCleaver;
+        }
+        @Override
+        public String getTranslatedTabLabel()
+        {
+            return "TougherTools Schematics";
+        }
+    };
+
+    public static final CreativeTabs TabCasts = new CreativeTabs(Reference.Id)
+    {
+        @Override
+        public Item getTabIconItem()
+        {
+            return ModItems.CastIronInlay;
+        }
+        @Override
+        public String getTranslatedTabLabel()
+        {
+            return "TougherTools Casts";
+        }
+    };
 }

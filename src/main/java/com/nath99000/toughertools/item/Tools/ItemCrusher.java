@@ -1,8 +1,6 @@
 package com.nath99000.toughertools.item.Tools;
 
-import com.nath99000.toughertools.init.ModItems;
-import com.nath99000.toughertools.item.ItemTT;
-import cpw.mods.fml.common.gameevent.PlayerEvent;
+import com.nath99000.toughertools.item.Wrapper.ItemTT;
 import net.minecraft.item.ItemStack;
 
 public class ItemCrusher extends ItemTT {

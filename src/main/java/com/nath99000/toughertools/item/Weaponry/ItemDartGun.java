@@ -1,12 +1,14 @@
 package com.nath99000.toughertools.item.Weaponry;
 
-import com.nath99000.toughertools.item.ItemTT;
+import assets.toughertools.lang.Names;
+import com.nath99000.toughertools.item.Wrapper.ItemTT;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityArrow;
-import net.minecraft.entity.projectile.EntitySnowball;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class ItemDartGun extends ItemTT {
     public ItemDartGun() {
@@ -39,6 +41,13 @@ public class ItemDartGun extends ItemTT {
             }
         }
         return itemstack;
+    }
+
+    public void addInformation(ItemStack par1, EntityPlayer par2, List par3, boolean par4)
+    {
+        {
+            par3.add(Names.common);
+        }
     }
 }
 

@@ -1,7 +1,9 @@
 package com.nath99000.toughertools.init;
 
 import com.nath99000.toughertools.container.ContainerSmelter;
+import com.nath99000.toughertools.container.ContainerToolTable;
 import com.nath99000.toughertools.gui.GuiSmelter;
+import com.nath99000.toughertools.gui.GuiToolTable;
 import com.nath99000.toughertools.tileentity.TileEntitySmelter;
 import cpw.mods.fml.common.network.IGuiHandler;
 import net.minecraft.entity.player.EntityPlayer;
@@ -21,6 +23,10 @@ public class GuiHandler implements IGuiHandler{
                     }
             }
         }
+
+        if(ID == ModBlocks.guiIDToolTable){
+            return ID == ModBlocks.guiIDToolTable && world.getBlock(x,y, z) == ModBlocks.BlockToolTable ? new ContainerToolTable(player.inventory, world, x, y, z) : null;
+        }
         return null;
     }
 
@@ -35,6 +41,9 @@ public class GuiHandler implements IGuiHandler{
                         return new GuiSmelter(player.inventory, (TileEntitySmelter) entity);
                     }
             }
+        }
+        if(ID == ModBlocks.guiIDToolTable){
+            return ID == ModBlocks.guiIDToolTable && world.getBlock(x,y, z) == ModBlocks.BlockToolTable ? new GuiToolTable(player.inventory, world, x, y, z) : null;
         }
         return null;
     }

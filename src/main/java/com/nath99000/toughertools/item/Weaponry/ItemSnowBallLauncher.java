@@ -1,13 +1,12 @@
 package com.nath99000.toughertools.item.Weaponry;
 
+import assets.toughertools.lang.Names;
 import com.nath99000.toughertools.init.ModItems;
-import com.nath99000.toughertools.item.ItemTT;
+import com.nath99000.toughertools.item.Wrapper.ItemTT;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntitySnowball;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
@@ -51,10 +50,11 @@ public class ItemSnowBallLauncher extends ItemTT {
         }
         return itemstack;
     }
+
     public void addInformation(ItemStack par1, EntityPlayer par2, List par3, boolean par4)
     {
         {
-            par3.add("\"Sicarius of flamma\"");
+            par3.add(Names.epic);
         }
     }
 }

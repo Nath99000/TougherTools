@@ -1,29 +1,25 @@
 package com.nath99000.toughertools.item.Weaponry;
 
 import assets.toughertools.lang.Names;
-import com.nath99000.toughertools.Reference.Reference;
-import com.nath99000.toughertools.creativetab.TTTab;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import com.nath99000.toughertools.item.Wrapper.ItemSwordTT;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.projectile.EntitySnowball;
 import net.minecraft.item.EnumAction;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemSword;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.stats.StatList;
 import net.minecraft.world.World;
+import net.minecraft.world.chunk.IChunkProvider;
 
 import java.util.List;
 
-public class ItemCleaver extends ItemSword {
-    public ItemCleaver(String Cleaver, ToolMaterial toolMaterial) {
+public class ItemCleaver extends ItemSwordTT {
+    public ItemCleaver(String name, ToolMaterial toolMaterial) {
         super(toolMaterial);
-        this.setCreativeTab(TTTab.TTTab);
-        this.setUnlocalizedName(Cleaver);
-        this.setTextureName(Reference.Id + ":" + Cleaver);
+        this.setUnlocalizedName(name);
     }
 
     public void addInformation(ItemStack par1, EntityPlayer par2, List par3, boolean par4)

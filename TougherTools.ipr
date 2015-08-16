@@ -21,7 +21,8 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
-    <file url="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/ItemSchematic.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/Casts/Cast.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/Weaponry/ASchematic.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/assets/toughertools/lang/Names.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/assets/toughertools/lang/en_US.lang" charset="UTF-8" />
   </component>
