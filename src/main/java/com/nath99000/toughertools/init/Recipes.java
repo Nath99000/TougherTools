@@ -58,6 +58,6 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.CastGoldInlay), " C ", "CIC", " C ", 'C', new ItemStack(Items.clay_ball), 'I', new ItemStack(ModItems.GoldOre));
         GameRegistry.addRecipe(new ItemStack(ModItems.CastIronplate), "CI ", "IC ", "   ", 'C', new ItemStack(Items.clay_ball), 'I', new ItemStack(ModItems.IronOre));
         GameRegistry.addRecipe(new ItemStack(ModItems.CastGoldplate), "CI ", "IC ", "   ", 'C', new ItemStack(Items.clay_ball), 'I', new ItemStack(ModItems.GoldOre));
-        //
+
     }
 }
