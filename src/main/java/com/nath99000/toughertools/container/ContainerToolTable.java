@@ -32,7 +32,7 @@ public class ContainerToolTable extends Container{
         //crafting slots
         for(int i = 0; i < 3; i++){
             for(int k = 0; k < 4; k++){
-                this.addSlotToContainer(new Slot(crafting, k + i * 3, 12 + k * 18, 17 + i * 18));
+                this.addSlotToContainer(new Slot(crafting, k + i * 4, 12 + k * 18, 17 + i * 18));
             }
         }
         //schematic slot(now unused)
