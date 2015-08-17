@@ -1,27 +1,28 @@
-[18:04:55] [main/INFO]: Setting user: Player741
-[18:04:57] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:05:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
-[18:05:08] [Sound Library Loader/INFO]: Sound engine started
-[18:05:10] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:05:11] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[18:05:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
-[18:05:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:05:11] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[18:05:12] [Sound Library Loader/INFO]: Sound engine started
-[18:05:18] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:05:18] [Server thread/INFO]: Generating keypair
-[18:05:18] [Server thread/INFO]: Preparing start region for level 0
-[18:05:19] [Server thread/INFO]: Changing view distance to 12, from 10
-[18:05:20] [Server thread/INFO]: Player741[local:E:ade809c3] logged in with entity id 48 at (-1250.7787786345182, 56.0, 214.2804245194357)
-[18:05:20] [Server thread/INFO]: Player741 joined the game
-[18:05:44] [Server thread/INFO]: Saving and pausing game...
-[18:05:44] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Overworld
-[18:05:44] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Nether
-[18:05:44] [Server thread/INFO]: Saving chunks for level 'Explosives test'/The End
-[18:05:44] [Server thread/INFO]: Stopping server
-[18:05:44] [Server thread/INFO]: Saving players
-[18:05:44] [Server thread/INFO]: Saving worlds
-[18:05:44] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Overworld
-[18:05:44] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Nether
-[18:05:44] [Server thread/INFO]: Saving chunks for level 'Explosives test'/The End
-[18:05:45] [Client thread/INFO]: Stopping!
+[18:21:56] [main/INFO]: Setting user: Player716
+[18:21:58] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:22:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[18:22:10] [Sound Library Loader/INFO]: Sound engine started
+[18:22:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:22:13] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[18:22:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[18:22:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:22:14] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[18:22:14] [Sound Library Loader/INFO]: Sound engine started
+[18:22:27] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:22:27] [Server thread/INFO]: Generating keypair
+[18:22:27] [Server thread/INFO]: Preparing start region for level 0
+[18:22:28] [Server thread/INFO]: Preparing spawn area: 55%
+[18:22:28] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:22:30] [Server thread/INFO]: Player716[local:E:523ac4ed] logged in with entity id 48 at (-1250.7787786345182, 56.0, 214.2804245194357)
+[18:22:30] [Server thread/INFO]: Player716 joined the game
+[18:23:30] [Server thread/INFO]: Saving and pausing game...
+[18:23:30] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Overworld
+[18:23:30] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Nether
+[18:23:30] [Server thread/INFO]: Saving chunks for level 'Explosives test'/The End
+[18:23:31] [Server thread/INFO]: Stopping server
+[18:23:31] [Server thread/INFO]: Saving players
+[18:23:31] [Server thread/INFO]: Saving worlds
+[18:23:31] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Overworld
+[18:23:31] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Nether
+[18:23:31] [Server thread/INFO]: Saving chunks for level 'Explosives test'/The End
+[18:23:32] [Client thread/INFO]: Stopping!

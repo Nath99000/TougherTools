@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/crafting/ToolTableCraftingManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="92" selection-start-line="42" selection-start-column="92" selection-end-line="42" selection-end-column="92" />
+              <caret line="42" column="101" selection-start-line="42" selection-start-column="101" selection-end-line="42" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContainerToolTable.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ContainerToolTable.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/container/ContainerToolTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.53212523">
+              <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InventoryCrafting.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InventoryCrafting.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forgeSrc-1.7.10-10.13.4.1448-1.7.10-sources.jar!/net/minecraft/inventory/InventoryCrafting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33278418">
+            <state vertical-scroll-proportion="0.0">
               <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
               <folding />
             </state>
@@ -154,8 +154,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/crafting/ToolTableShapedRecipe.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/toughertools/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/init/Recipes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/crafting/ToolTableCraftingManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/container/ContainerToolTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/crafting/ToolTableCraftingManager.java" />
       </list>
     </option>
   </component>
@@ -314,6 +314,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TougherTools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TougherTools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.nath99000.toughertools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creativetab" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1379,6 +1397,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forgeSrc-1.7.10-10.13.4.1448-1.7.10-sources.jar!/net/minecraft/inventory/InventoryCrafting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/gui/GuiToolTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1392,26 +1418,18 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/crafting/ToolTableCraftingManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="92" selection-start-line="42" selection-start-column="92" selection-end-line="42" selection-end-column="92" />
+          <caret line="42" column="101" selection-start-line="42" selection-start-column="101" selection-end-line="42" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/container/ContainerToolTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.53212523">
+          <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forgeSrc-1.7.10-10.13.4.1448-1.7.10-sources.jar!/net/minecraft/inventory/InventoryCrafting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33278418">
-          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>

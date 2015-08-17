@@ -31,12 +31,12 @@ public class ContainerToolTable extends Container{
 
         //crafting slots
         for(int i = 0; i < 3; i++){
-            for(int k = 0; k < 3; k++){
-                this.addSlotToContainer(new Slot(crafting, k + i * 3, 30 + k * 18, 17 + i * 18));
+            for(int k = 0; k < 4; k++){
+                this.addSlotToContainer(new Slot(crafting, k + i * 3, 12 + k * 18, 17 + i * 18));
             }
         }
-        //schematic slot
-        this.addSlotToContainer(new Slot(crafting, 11, 11, 35));
+        //schematic slot(now unused)
+        //this.addSlotToContainer(new Slot(crafting, 11, 11, 35));
 
         //player inventory
         for(int i = 0; i < 3; i++){

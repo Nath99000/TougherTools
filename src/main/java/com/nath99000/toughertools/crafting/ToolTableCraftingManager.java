@@ -40,7 +40,7 @@ public class ToolTableCraftingManager
     {
 
         recipes = new ArrayList();
-        this.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[] {"  D ", "D  I ", "  I ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot)});
+        this.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[] {"DDDD", "DDDD", "DDDD", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot)});
 
         Collections.sort(this.recipes, new ToolTableRecipeSorter(this) {
         });
