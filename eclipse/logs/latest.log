@@ -1,57 +1,31 @@
-[07:20:20] [main/INFO]: Setting user: Player72
-[07:20:23] [Client thread/INFO]: LWJGL Version: 2.9.1
-[07:20:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
-[07:20:42] [Sound Library Loader/INFO]: Sound engine started
-[07:20:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[07:20:49] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[07:20:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
-[07:20:50] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[07:20:50] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[07:20:51] [Sound Library Loader/INFO]: Sound engine started
-[07:21:05] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[07:21:05] [Server thread/INFO]: Generating keypair
-[07:21:06] [Server thread/INFO]: Preparing start region for level 0
-[07:21:07] [Server thread/INFO]: Changing view distance to 12, from 10
-[07:21:08] [Server thread/INFO]: Player72[local:E:f743ce8b] logged in with entity id 48 at (-1250.7787786345182, 56.0, 214.2804245194357)
-[07:21:08] [Server thread/INFO]: Player72 joined the game
-[07:21:11] [Server thread/INFO]: Stopping server
-[07:21:11] [Server thread/INFO]: Saving players
-[07:21:11] [Server thread/INFO]: Saving worlds
-[07:21:11] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Overworld
-[07:21:11] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Nether
-[07:21:11] [Server thread/INFO]: Saving chunks for level 'Explosives test'/The End
-[07:21:12] [Client thread/FATAL]: Unreported exception thrown!
-java.lang.ExceptionInInitializerError
-	at com.nath99000.toughertools.container.ContainerToolTable.onCraftMatrixChanged(ContainerToolTable.java:67) ~[ContainerToolTable.class:?]
-	at com.nath99000.toughertools.container.ContainerToolTable.<init>(ContainerToolTable.java:53) ~[ContainerToolTable.class:?]
-	at com.nath99000.toughertools.gui.GuiToolTable.<init>(GuiToolTable.java:17) ~[GuiToolTable.class:?]
-	at com.nath99000.toughertools.init.GuiHandler.getClientGuiElement(GuiHandler.java:46) ~[GuiHandler.class:?]
-	at cpw.mods.fml.common.network.NetworkRegistry.getLocalGuiContainer(NetworkRegistry.java:265) ~[NetworkRegistry.class:?]
-	at cpw.mods.fml.common.network.internal.FMLNetworkHandler.openGui(FMLNetworkHandler.java:93) ~[FMLNetworkHandler.class:?]
-	at net.minecraft.entity.player.EntityPlayer.openGui(EntityPlayer.java:2501) ~[EntityPlayer.class:?]
-	at com.nath99000.toughertools.block.ToolTable.onBlockActivated(ToolTable.java:37) ~[ToolTable.class:?]
-	at net.minecraft.client.multiplayer.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:376) ~[PlayerControllerMP.class:?]
-	at net.minecraft.client.Minecraft.func_147121_ag(Minecraft.java:1529) ~[Minecraft.class:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2044) ~[Minecraft.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1039) ~[Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:962) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
-Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 13
-	at java.lang.String.charAt(String.java:646) ~[?:1.8.0_45]
-	at com.nath99000.toughertools.crafting.ToolTableCraftingManager.addRecipe(ToolTableCraftingManager.java:106) ~[ToolTableCraftingManager.class:?]
-	at com.nath99000.toughertools.crafting.ToolTableCraftingManager.<init>(ToolTableCraftingManager.java:43) ~[ToolTableCraftingManager.class:?]
-	at com.nath99000.toughertools.crafting.ToolTableCraftingManager.<clinit>(ToolTableCraftingManager.java:25) ~[ToolTableCraftingManager.class:?]
-	... 27 more
+[18:10:21] [main/INFO]: Setting user: Player427
+[18:10:23] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:10:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[18:10:38] [Sound Library Loader/INFO]: Sound engine started
+[18:10:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:10:43] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[18:10:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[18:10:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:10:43] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[18:10:44] [Sound Library Loader/INFO]: Sound engine started
+[18:10:51] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:10:51] [Server thread/INFO]: Generating keypair
+[18:10:52] [Server thread/INFO]: Preparing start region for level 0
+[18:10:52] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:10:53] [Server thread/INFO]: Player427[local:E:770dd7d8] logged in with entity id 48 at (-1250.7787786345182, 56.0, 214.2804245194357)
+[18:10:53] [Server thread/INFO]: Player427 joined the game
+[18:11:05] [Server thread/INFO]: Saving and pausing game...
+[18:11:05] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Overworld
+[18:11:05] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Nether
+[18:11:05] [Server thread/INFO]: Saving chunks for level 'Explosives test'/The End
+[18:11:28] [Server thread/INFO]: Saving and pausing game...
+[18:11:28] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Overworld
+[18:11:28] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Nether
+[18:11:28] [Server thread/INFO]: Saving chunks for level 'Explosives test'/The End
+[18:11:29] [Server thread/INFO]: Stopping server
+[18:11:29] [Server thread/INFO]: Saving players
+[18:11:29] [Server thread/INFO]: Saving worlds
+[18:11:29] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Overworld
+[18:11:29] [Server thread/INFO]: Saving chunks for level 'Explosives test'/Nether
+[18:11:29] [Server thread/INFO]: Saving chunks for level 'Explosives test'/The End
+[18:11:30] [Client thread/INFO]: Stopping!
