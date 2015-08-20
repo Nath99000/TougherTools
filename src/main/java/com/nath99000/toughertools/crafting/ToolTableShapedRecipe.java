@@ -37,7 +37,7 @@ public class ToolTableShapedRecipe implements IRecipe
      */
     public boolean matches(InventoryCrafting crafting, World world)
     {
-        for (int i = 0; i <= 3 - this.recipeWidth; ++i)
+        for (int i = 0; i <= 4 - this.recipeWidth; ++i)
         {
             for (int j = 0; j <= 3 - this.recipeHeight; ++j)
             {
@@ -61,7 +61,7 @@ public class ToolTableShapedRecipe implements IRecipe
      */
     private boolean checkMatch(InventoryCrafting inventoryCrafting, int p_77573_2_, int p_77573_3_, boolean bool)
     {
-        for (int k = 0; k < 3; ++k)
+        for (int k = 0; k < 4; ++k)
         {
             for (int l = 0; l < 3; ++l)
             {

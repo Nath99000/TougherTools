@@ -67,4 +67,5 @@ item.toughertools:PlasmaBlade.name=Plasma blade
 item.toughertools:LightningStaff.name=Staff of lightning
 tile.toughertools:ToolTable.name=Tool table(A bit WIP)
 item.toughertools:Scythe.name=Scythe
-item.toughertools:DaedraMace.name=Daedric mace
+item.toughertools:DaedraMace.name=Demonic mace
+item.toughertools:Masamune.name=Honjo masamune

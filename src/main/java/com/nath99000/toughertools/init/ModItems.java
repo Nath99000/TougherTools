@@ -47,6 +47,7 @@ public class ModItems
     public static Item.ToolMaterial Arcanesword = EnumHelper.addToolMaterial("Arcanesword", 0, 325, 0f, 3.1F, 0);
     public static Item.ToolMaterial Plasmablade = EnumHelper.addToolMaterial("Plasmablade", 0, 525, 0f, 3F, 0);
     public static Item.ToolMaterial daedramace = EnumHelper.addToolMaterial("daedramace", 0, 750, 0f, 4.3f, 0);
+    public static Item.ToolMaterial masamune = EnumHelper.addToolMaterial("masamune", 0, 825, 0f, 4f, 0);
     public static Item PickW1;
     public static final ItemTT StoneCutter = new ItemStoneCutter();
     public static final ItemTT HeadW2 = new ItemToolHeadW2();
@@ -117,6 +118,7 @@ public class ModItems
     public static Item SchematicLightning = new ASchematic("LightningStaff");
     public static Item Scythe = new ItemScythe(Dagger, "Scythe");
     public static Item Daedramace = new ItemDaedraMace(daedramace);
+    public static Item Masamune = new ItemMasamune(masamune);
 
 
     public static void  init()
@@ -194,5 +196,6 @@ public class ModItems
         GameRegistry.registerItem(SchematicLightning, "SchematicLightning");
         GameRegistry.registerItem(Scythe, "Scythe");
         GameRegistry.registerItem(Daedramace, "Daedramace");
+        GameRegistry.registerItem(Masamune, "Masamune");
     }
 }

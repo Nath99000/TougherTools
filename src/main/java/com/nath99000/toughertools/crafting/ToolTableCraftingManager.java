@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import com.nath99000.toughertools.init.ModItems;
+import com.nath99000.toughertools.item.Weaponry.ASchematic;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -40,7 +41,9 @@ public class ToolTableCraftingManager
     {
 
         recipes = new ArrayList();
-        this.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[] {"DDDD", "DDDD", "DDDD", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot)});
+
+        this.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"#  D", "   I", "   I", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
+
 
         Collections.sort(this.recipes, new ToolTableRecipeSorter(this) {
         });

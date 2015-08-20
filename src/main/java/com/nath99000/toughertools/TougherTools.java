@@ -2,6 +2,7 @@ package com.nath99000.toughertools;
 
 import com.nath99000.toughertools.Reference.Reference;
 import com.nath99000.toughertools.Util.LogHelper;
+import com.nath99000.toughertools.crafting.ToolTableCraftingManager;
 import com.nath99000.toughertools.init.*;
 import com.nath99000.toughertools.proxy.IProxy;
 import cpw.mods.fml.common.Mod;
@@ -33,6 +34,7 @@ public class TougherTools {
         VanillaHandler.init();
         VanillaHandler.smelting();
         Recipes.init();
+        Recipes.toolrecipe(ToolTableCraftingManager.getInstance());
         LogHelper.info("PreInitalization complete!");
     }
     @Mod.EventHandler

@@ -26,7 +26,6 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.PickW2), "HBH", " S ", " S ", 'H', new ItemStack(ModItems.HeadW2), 'B', new ItemStack(ModItems.BindingL2), 'S', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.AxeW1), "HB ", "PS ", " S ", 'H', new ItemStack(ModItems.HeadW1), 'B', new ItemStack(ModItems.BindingL1), 'P', new ItemStack(ModItems.PlateW1), 'S', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.ShovelW1), " P ", " B ", " S ", 'B', new ItemStack(ModItems.BindingL1), 'P', new ItemStack(ModItems.PlateW1), 'S', new ItemStack(Items.stick));
-        GameRegistry.addRecipe(new ItemStack(ModItems.Snowballlauncher), "OOO", "SWO", " BR", 'O', new ItemStack(Blocks.obsidian), 'W', new ItemStack(Items.water_bucket), 'B', new ItemStack(Blocks.stone_button), 'R', new ItemStack(Items.blaze_rod), 'S', new ItemStack(ModItems.SchematicSnowZooka));
         GameRegistry.addSmelting(new ItemStack(Items.rotten_flesh), new ItemStack(Items.leather), 1F);
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.Snowclip), new ItemStack(Items.stick), new ItemStack(Items.stick), new ItemStack(Blocks.snow), new ItemStack(Blocks.snow), new ItemStack(Items.gunpowder));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.BladeW1), new ItemStack(Items.stick), new ItemStack(Items.stick), new ItemStack(Items.flint));
@@ -58,6 +57,19 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.CastGoldInlay), " C ", "CIC", " C ", 'C', new ItemStack(Items.clay_ball), 'I', new ItemStack(ModItems.GoldOre));
         GameRegistry.addRecipe(new ItemStack(ModItems.CastIronplate), "CI ", "IC ", "   ", 'C', new ItemStack(Items.clay_ball), 'I', new ItemStack(ModItems.IronOre));
         GameRegistry.addRecipe(new ItemStack(ModItems.CastGoldplate), "CI ", "IC ", "   ", 'C', new ItemStack(Items.clay_ball), 'I', new ItemStack(ModItems.GoldOre));
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.BlockToolTable), "ISI", "SWS", "ISI", 'I', new ItemStack(Items.iron_ingot), 'S', new ItemStack(ModItems.steel), 'W', new ItemStack(Blocks.crafting_table));
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.BlockToolTable), "SIS", "IWI", "SIS", 'I', new ItemStack(Items.iron_ingot), 'S', new ItemStack(ModItems.steel), 'W', new ItemStack(Blocks.crafting_table));
+    }
 
+    public static void toolrecipe(ToolTableCraftingManager craftingManager){
+        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"#  D", "   I", "   I", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
+        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"   D", "#  I", "   I", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
+        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"   D", "   I", "#  I", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
+        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"  D ", "  I ", "# I ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
+        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"# D ", "  I ", "  I ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
+        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"  D ", "# I ", "  I ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
+        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"#D  ", " I  ", " I  ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
+        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{" D  ", "#I  ", " I  ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
+        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{" D  ", " I  ", "#I  ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
     }
 }
