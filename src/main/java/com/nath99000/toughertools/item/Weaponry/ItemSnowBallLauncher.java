@@ -1,8 +1,9 @@
 package com.nath99000.toughertools.item.Weaponry;
 
-import assets.toughertools.lang.Names;
+import com.nath99000.toughertools.Reference.Names;
 import com.nath99000.toughertools.init.ModItems;
 import com.nath99000.toughertools.item.Wrapper.ItemTT;
+import com.nath99000.toughertools.item.Wrapper.UniqueTT;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.entity.player.EntityPlayer;
@@ -12,7 +13,7 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class ItemSnowBallLauncher extends ItemTT {
+public class ItemSnowBallLauncher extends UniqueTT {
     public ItemSnowBallLauncher(){
         super();
         setUnlocalizedName("Snowballlauncher");

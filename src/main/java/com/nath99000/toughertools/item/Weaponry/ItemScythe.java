@@ -1,6 +1,6 @@
 package com.nath99000.toughertools.item.Weaponry;
 
-import assets.toughertools.lang.Names;
+import com.nath99000.toughertools.Reference.Names;
 import com.nath99000.toughertools.item.Wrapper.ItemSwordTT;
 import cpw.mods.fml.common.eventhandler.Event;
 import net.minecraft.block.Block;

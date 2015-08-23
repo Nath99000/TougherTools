@@ -1,15 +1,14 @@
 package com.nath99000.toughertools.init;
 
+import com.nath99000.toughertools.Reference.Names;
 import com.nath99000.toughertools.item.Ammunition.ItemSnowClip;
 import com.nath99000.toughertools.item.Axes.ItemAxeW1;
 import com.nath99000.toughertools.item.Axes.ItemAxeW2;
 import com.nath99000.toughertools.item.Casts.Cast;
 import com.nath99000.toughertools.item.Hoes.*;
 import com.nath99000.toughertools.item.Items.*;
-import com.nath99000.toughertools.item.Materials.DiamondChunk;
-import com.nath99000.toughertools.item.Materials.GoldOre;
-import com.nath99000.toughertools.item.Materials.IronOre;
-import com.nath99000.toughertools.item.Materials.SteelChunk;
+import com.nath99000.toughertools.item.Items.ItemPlaceHolder;
+import com.nath99000.toughertools.item.Materials.*;
 import com.nath99000.toughertools.item.Miscellaneous.ItemSteelIngot;
 import com.nath99000.toughertools.item.Pickaxes.*;
 import com.nath99000.toughertools.item.Pickaxes.NightVision.ItemPickW4NV;
@@ -19,17 +18,15 @@ import com.nath99000.toughertools.item.Tools.*;
 import com.nath99000.toughertools.item.Axes.*;
 import com.nath99000.toughertools.item.Weaponry.*;
 import com.nath99000.toughertools.item.Weaponry.ASchematic;
-import com.nath99000.toughertools.item.Wrapper.ItemSwordTT;
-import com.nath99000.toughertools.item.Wrapper.ItemTT;
-import com.nath99000.toughertools.item.Wrapper.SchematicTT;
+import com.nath99000.toughertools.item.Wrapper.*;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor;
 import net.minecraftforge.common.util.EnumHelper;
 
-public class ModItems
-{
+public class ModItems {
     public static final ItemTT LeatherStrips = new ItemLeatherStrips();
-    public static final  ItemTT BindingL1 = new ItemBindingL1();
+    public static final ItemTT BindingL1 = new ItemBindingL1();
     public static final ItemTT HeadW1 = new ItemToolHeadW1();
     //toolmaterials
     public static Item.ToolMaterial Wood1 = EnumHelper.addToolMaterial("Wood1", 0, 20, 1F, 0.0F, 0);
@@ -48,6 +45,7 @@ public class ModItems
     public static Item.ToolMaterial Plasmablade = EnumHelper.addToolMaterial("Plasmablade", 0, 525, 0f, 3F, 0);
     public static Item.ToolMaterial daedramace = EnumHelper.addToolMaterial("daedramace", 0, 750, 0f, 4.3f, 0);
     public static Item.ToolMaterial masamune = EnumHelper.addToolMaterial("masamune", 0, 825, 0f, 4f, 0);
+    public static Item.ToolMaterial botaniaterrasteel = EnumHelper.addToolMaterial("botaniaterrasteel", 4, 2300, 9F, 3F, 0);
     public static Item PickW1;
     public static final ItemTT StoneCutter = new ItemStoneCutter();
     public static final ItemTT HeadW2 = new ItemToolHeadW2();
@@ -61,7 +59,7 @@ public class ModItems
     public static Item AxeW1;
     public static Item ShovelW1;
     public static Item HoeW1;
-    public static ItemTT Snowballlauncher = new ItemSnowBallLauncher();
+    public static UniqueTT Snowballlauncher = new ItemSnowBallLauncher();
     public static ItemTT BladeW1 = new ItemToolBladeW1();
     public static ItemTT Snowclip = new ItemSnowClip();
     public static ItemTT WandcoreW1 = new ItemWandcoreW1();
@@ -70,7 +68,7 @@ public class ModItems
     public static Item AxeW2;
     public static Item HoeW2;
     public static Item SwordW2;
-    public static ItemTT DartGun = new ItemDartGun();
+    public static UniqueTT DartGun = new ItemDartGun();
     public static Item SwordW3;
     public static Item SwordW4;
     public static Item SwordW5;
@@ -119,10 +117,32 @@ public class ModItems
     public static Item Scythe = new ItemScythe(Dagger, "Scythe");
     public static Item Daedramace = new ItemDaedraMace(daedramace);
     public static Item Masamune = new ItemMasamune(masamune);
+    public static final ItemTT ironnugget = new IronNugget();
+    public static Item thaumsteel = new ItemPlaceHolder("Thaumium", Names.thaumcraft);
+    public static Item botaniasteel = new ItemPlaceHolder("Manasteel", Names.botania);
+    public static Item botaniaterra = new ItemPlaceHolder("Terrasteel", Names.botania);
+    public static Item botanianelven = new ItemPlaceHolder("Elementium", Names.botania);
+    public static Item ae2fluix = new ItemPlaceHolder("Fluix", Names.ae2);
+    public static Item theEnderium = new ItemPlaceHolder("Enderium", Names.thermal);
+    public static Item theElectrum = new ItemPlaceHolder("Electrum", Names.thermal);
+    public static Item theInvar = new ItemPlaceHolder("Invar", Names.thermal);
+    public static Item tcManyullyn = new ItemPlaceHolder("Manyullyn", Names.tconstruct);
+    public static Item tcCobalt = new ItemPlaceHolder("Cobalt", Names.tconstruct);
+    public static Item tcArdite = new ItemPlaceHolder("Ardite", Names.tconstruct);
+    public static Item botaniagaia = new ItemPlaceHolder("Gaia ingot", Names.botania);
+    public static Item botaniawrathrune = new ItemPlaceHolder("Rune of wrath", Names.botania);
+    public static Item botaniaflowerred = new ItemPlaceHolder("Red mystical flower", Names.botania);
+    public static Item botaniastick = new ItemPlaceHolder("Livingwood twig", Names.botania);
+    public static Item botaniapetalblack = new ItemPlaceHolder("Black mana petal", Names.botania);
+    public static Item BotaniaSword = new ItemBotaniaSword(botaniaterrasteel);
+    public static Item ae2certus = new ItemPlaceHolder("Certus quartz", Names.ae2);
+    public static Item invis = new ItemInvis();
+    public static Item Schematicscythe = new ASchematic("Scythe");
+    public static Item Schematicdaedramace= new ASchematic("DemonsMace");
+    public static Item Schematicmasamune= new ASchematic("Masamune");
 
 
-    public static void  init()
-    {
+    public static void init() {
         GameRegistry.registerItem(LeatherStrips, "LeatherStrips");
         GameRegistry.registerItem(BindingL1, "BindingL1");
         GameRegistry.registerItem(HeadW1, "HeadW1");
@@ -177,9 +197,6 @@ public class ModItems
         GameRegistry.registerItem(DiamondChunk, "DiamondChunk");
         GameRegistry.registerItem(Crusher, "Crusher");
         GameRegistry.registerItem(SteelChunk, "SteelChunk");
-        GameRegistry.registerItem(SchematicCleaver, "SchematicCleaver");
-        GameRegistry.registerItem(SchematicSnowZooka, "SchematicSnowZooka");
-        GameRegistry.registerItem(SchematicDartgun, "SchematicDartgun");
         GameRegistry.registerItem(steel, "steel");
         GameRegistry.registerItem(dagger = new ItemDagger(Dagger, "Dagger"), "Dagger");
         GameRegistry.registerItem(daggerAssasin = new ItemAssasinDagger(Dagger, "DaggerAssasin"), "DaggerAssasin");
@@ -189,13 +206,41 @@ public class ModItems
         GameRegistry.registerItem(CastIronplate, "CastIronplate");
         GameRegistry.registerItem(CastGoldplate, "CastGoldplate");
         GameRegistry.registerItem(arcanesword = new ItemArcaneSword(Arcanesword, "Arcanesword"), "Arcanesword");
-        GameRegistry.registerItem(SchematicArcanesword, "SchematicArcanesword");
         GameRegistry.registerItem(PlasmaBlade = new ItemPlasmaBlade(Plasmablade, "PlasmaBlade"), "PlasmaBlade");
-        GameRegistry.registerItem(SchematicPlasmablade, "SchematicPlasmablade");
         GameRegistry.registerItem(StaffLightning, "StaffLightning");
-        GameRegistry.registerItem(SchematicLightning, "SchematicLightning");
         GameRegistry.registerItem(Scythe, "Scythe");
         GameRegistry.registerItem(Daedramace, "Daedramace");
         GameRegistry.registerItem(Masamune, "Masamune");
+        GameRegistry.registerItem(ironnugget, "Ironnugget");
+        GameRegistry.registerItem(thaumsteel, "thaumsteel");
+        GameRegistry.registerItem(botaniasteel, "botaniasteel");
+        GameRegistry.registerItem(botaniaterra, "botaniaterra");
+        GameRegistry.registerItem(botanianelven, "botanianelven");
+        GameRegistry.registerItem(ae2fluix, "ae2fluix");
+        GameRegistry.registerItem(theEnderium, "theEnderium");
+        GameRegistry.registerItem(theElectrum, "theElectrum");
+        GameRegistry.registerItem(theInvar, "theInvar");
+        GameRegistry.registerItem(tcManyullyn, "tcManyullyn");
+        GameRegistry.registerItem(tcCobalt, "tcCobalt");
+        GameRegistry.registerItem(tcArdite, "tcArdite");
+        GameRegistry.registerItem(botaniagaia, "botaniagaia");
+        GameRegistry.registerItem(botaniawrathrune, "botaniawrathrune");
+        GameRegistry.registerItem(botaniaflowerred, "botaniaflowerred");
+        GameRegistry.registerItem(botaniastick, "botaniastick");
+        GameRegistry.registerItem(botaniapetalblack, "botaniapetalblack");
+        GameRegistry.registerItem(BotaniaSword, "BotaniaSword");
+        GameRegistry.registerItem(ae2certus, "ae2certus");
+    }
+
+    public static void initII() {
+        GameRegistry.registerItem(SchematicLightning, "SchematicLightning");
+        GameRegistry.registerItem(SchematicPlasmablade, "SchematicPlasmablade");
+        GameRegistry.registerItem(SchematicCleaver, "SchematicCleaver");
+        GameRegistry.registerItem(SchematicSnowZooka, "SchematicSnowZooka");
+        GameRegistry.registerItem(SchematicDartgun, "SchematicDartgun");
+        GameRegistry.registerItem(SchematicArcanesword, "SchematicArcanesword");
+        GameRegistry.registerItem(Schematicscythe, "Schematicscythe");
+        GameRegistry.registerItem(Schematicdaedramace, "Schematicdaedramace");
+        GameRegistry.registerItem(Schematicmasamune, "Schematicmasamune");
     }
 }

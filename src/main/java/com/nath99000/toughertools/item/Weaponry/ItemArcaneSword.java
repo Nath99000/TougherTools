@@ -1,6 +1,6 @@
 package com.nath99000.toughertools.item.Weaponry;
 
-import assets.toughertools.lang.Names;
+import com.nath99000.toughertools.Reference.Names;
 import com.nath99000.toughertools.item.Wrapper.ItemSwordTT;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;

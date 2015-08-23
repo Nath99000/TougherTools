@@ -1,16 +1,16 @@
 package com.nath99000.toughertools.item.Weaponry;
 
-import assets.toughertools.lang.Names;
+import com.nath99000.toughertools.Reference.Names;
 import com.nath99000.toughertools.Entity.ProjectileLightning;
 import com.nath99000.toughertools.item.Wrapper.ItemTT;
+import com.nath99000.toughertools.item.Wrapper.UniqueTT;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.projectile.EntitySnowball;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
 import java.util.List;
 
-public class ItemLightningStaff extends ItemTT{
+public class ItemLightningStaff extends UniqueTT{
     public ItemLightningStaff(){
         super();
         setUnlocalizedName("LightningStaff");

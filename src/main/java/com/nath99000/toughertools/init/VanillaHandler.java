@@ -3,6 +3,7 @@ package com.nath99000.toughertools.init;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.CraftingManager;
 import net.minecraft.item.crafting.FurnaceRecipes;
@@ -117,7 +118,17 @@ public class VanillaHandler {
                 remover.remove();
             if (itemStack != null && itemStack.getItem() == Items.chainmail_leggings)
                 remover.remove();
-
+            //miscellaneous
+            if(itemStack != null && itemStack.getItem() == Item.getItemFromBlock(Blocks.iron_block))
+                remover.remove();
+                if(itemStack != null && itemStack.getItem() == Item.getItemFromBlock(Blocks.gold_block))
+                    remover.remove();
+            if(itemStack != null && itemStack.getItem() == Item.getItemFromBlock(Blocks.diamond_block))
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.iron_door)
+                remover.remove();
+            if (itemStack != null && itemStack.getItem() == Items.wooden_door)
+                remover.remove();
         }
     }
     public static void removeFurnaceRecipe (ItemStack resultItem)

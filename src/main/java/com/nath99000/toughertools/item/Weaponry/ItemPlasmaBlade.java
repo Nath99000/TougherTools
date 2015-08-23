@@ -1,12 +1,10 @@
 package com.nath99000.toughertools.item.Weaponry;
 
-import assets.toughertools.lang.Names;
+import com.nath99000.toughertools.Reference.Names;
 import com.nath99000.toughertools.item.Wrapper.ItemSwordTT;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
-import net.minecraft.potion.Potion;
-import net.minecraft.potion.PotionEffect;
 
 import java.util.List;
 

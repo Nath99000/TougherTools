@@ -12,7 +12,7 @@ import org.lwjgl.opengl.GL11;
 
 public class GuiToolTable extends GuiContainer{
 
-    private ResourceLocation texture = new ResourceLocation(Reference.Id + ":textures/gui/ToolTable.png");
+    private ResourceLocation texture = new ResourceLocation(Reference.Id + ":textures/gui/ModelToolTable.png");
     public GuiToolTable(InventoryPlayer inventoryPlayer, World world, int x, int y, int z){
         super(new ContainerToolTable(inventoryPlayer, world, x, y, z));
         this.xSize = 176;

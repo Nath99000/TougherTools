@@ -1,6 +1,6 @@
 package com.nath99000.toughertools.item.Weaponry;
 
-import assets.toughertools.lang.Names;
+import com.nath99000.toughertools.Reference.Names;
 import com.nath99000.toughertools.item.Wrapper.SchematicTT;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -40,6 +40,15 @@ public class ASchematic extends SchematicTT {
             }
             if(name=="LightningStaff"){
                 par3.add(Names.godly);
+            }
+            if(name=="Scythe"){
+                par3.add(Names.common);
+            }
+            if(name=="DemonsMace"){
+                par3.add(Names.godly);
+            }
+            if(name=="Masamune"){
+                par3.add(Names.legendary);
             }
         }
     }

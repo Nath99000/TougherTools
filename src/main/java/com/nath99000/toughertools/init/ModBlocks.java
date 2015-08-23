@@ -23,6 +23,6 @@ public class ModBlocks {
         GameRegistry.registerBlock(SmelterIdle, "SmelterIdle");
         GameRegistry.registerBlock(SmelterActive, "SmelterActive");
         GameRegistry.registerBlock(Steel, "Steel");
-        GameRegistry.registerBlock(BlockToolTable, "ToolTable");
+        GameRegistry.registerBlock(BlockToolTable, "ModelToolTable");
     }
 }

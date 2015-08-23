@@ -1,7 +1,8 @@
 package com.nath99000.toughertools.item.Weaponry;
 
-import assets.toughertools.lang.Names;
+import com.nath99000.toughertools.Reference.Names;
 import com.nath99000.toughertools.item.Wrapper.ItemTT;
+import com.nath99000.toughertools.item.Wrapper.UniqueTT;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraft.init.Items;
@@ -10,7 +11,7 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class ItemDartGun extends ItemTT {
+public class ItemDartGun extends UniqueTT {
     public ItemDartGun() {
         super();
         setUnlocalizedName("DartGun");

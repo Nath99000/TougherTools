@@ -11,9 +11,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
-import net.minecraft.init.Items;
-import net.minecraft.item.ItemStack;
-import net.minecraft.tileentity.TileEntity;
+import net.minecraftforge.common.DungeonHooks;
 
 @Mod(modid = Reference.Id, name = Reference.Name, version = Reference.Version)
 public class TougherTools {
@@ -31,10 +29,15 @@ public class TougherTools {
         ModEntity.register();
         ModBlocks.init();
         ModItems.init();
+        ModItems.initII();
+        OreDict.init();
         VanillaHandler.init();
         VanillaHandler.smelting();
         Recipes.init();
+        Recipes.oreRecipe();
         Recipes.toolrecipe(ToolTableCraftingManager.getInstance());
+        ChestHandler.init();
+        proxy.registerRenderThings();
         LogHelper.info("PreInitalization complete!");
     }
     @Mod.EventHandler

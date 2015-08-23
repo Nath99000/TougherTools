@@ -48,4 +48,29 @@ public class TTTab
             return "TougherTools Casts";
         }
     };
+
+    public static final CreativeTabs TabPlaceHolder = new CreativeTabs(Reference.Id)
+    {
+        @Override
+        public Item getTabIconItem()
+        {
+            return ModItems.thaumsteel;
+        }
+        @Override
+        public String getTranslatedTabLabel()
+        {
+            return "TougherTools Placeholders";
+        }
+    };
+
+    public static final CreativeTabs TabUnique = new CreativeTabs(Reference.Id) {
+        @Override
+        public Item getTabIconItem() {
+            return ModItems.Cleaver;
+        }
+        @Override
+    public String getTranslatedTabLabel(){
+            return "TougherTools Unique";
+        }
+    };
 }

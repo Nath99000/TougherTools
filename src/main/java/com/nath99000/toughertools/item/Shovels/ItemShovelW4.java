@@ -1,6 +1,6 @@
 package com.nath99000.toughertools.item.Shovels;
 
-import assets.toughertools.lang.Names;
+import com.nath99000.toughertools.Reference.Names;
 import com.nath99000.toughertools.Reference.Reference;
 import com.nath99000.toughertools.creativetab.TTTab;
 import net.minecraft.entity.player.EntityPlayer;

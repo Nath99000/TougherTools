@@ -6,6 +6,9 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
+import net.minecraftforge.oredict.ShapedOreRecipe;
+import net.minecraftforge.oredict.ShapelessOreRecipe;
 
 public class Recipes
 {
@@ -39,12 +42,26 @@ public class Recipes
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.PickW5nv), new ItemStack(ModItems.PickW5), new ItemStack(Items.ender_eye), new ItemStack(Items.golden_carrot));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.PickW4nv), new ItemStack(ModItems.PickW4), new ItemStack(Items.ender_eye), new ItemStack(Items.golden_carrot));
         GameRegistry.addSmelting(new ItemStack(Items.quartz), new ItemStack(ModItems.Crusher), 1.0F);
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IronOre, 2), new ItemStack(Blocks.iron_ore), new ItemStack(ModItems.Crusher));
+        //iron ore
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IronOre, 2), new ItemStack(Blocks.iron_ore), new ItemStack(ModItems.Crusher, 1, 9));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IronOre, 2), new ItemStack(Blocks.iron_ore), new ItemStack(ModItems.Crusher, 1, 8));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IronOre, 2), new ItemStack(Blocks.iron_ore), new ItemStack(ModItems.Crusher, 1, 7));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IronOre, 2), new ItemStack(Blocks.iron_ore), new ItemStack(ModItems.Crusher, 1, 6));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IronOre, 2), new ItemStack(Blocks.iron_ore), new ItemStack(ModItems.Crusher, 1, 5));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IronOre, 2), new ItemStack(Blocks.iron_ore), new ItemStack(ModItems.Crusher, 1, 4));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IronOre, 2), new ItemStack(Blocks.iron_ore), new ItemStack(ModItems.Crusher, 1, 3));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IronOre, 2), new ItemStack(Blocks.iron_ore), new ItemStack(ModItems.Crusher, 1, 2));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IronOre, 2), new ItemStack(Blocks.iron_ore), new ItemStack(ModItems.Crusher, 1, 1));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IronOre, 2), new ItemStack(Blocks.iron_ore), new ItemStack(ModItems.Crusher, 1, 0));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IronOre, 2), new ItemStack(Blocks.iron_ore), new ItemStack(ModItems.Crusher, 0, 0));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.GoldOre, 2), new ItemStack(Blocks.gold_ore), new ItemStack(ModItems.Crusher));
+        //gold ore
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.GoldOre, 2), new ItemStack(Blocks.gold_ore), new ItemStack(ModItems.Crusher, 1, 9));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.GoldOre, 2), new ItemStack(Blocks.gold_ore), new ItemStack(ModItems.Crusher, 1, 8));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.GoldOre, 2), new ItemStack(Blocks.gold_ore), new ItemStack(ModItems.Crusher, 1, 7));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.GoldOre, 2), new ItemStack(Blocks.gold_ore), new ItemStack(ModItems.Crusher, 1, 6));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.GoldOre, 2), new ItemStack(Blocks.gold_ore), new ItemStack(ModItems.Crusher, 1, 5));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.GoldOre, 2), new ItemStack(Blocks.gold_ore), new ItemStack(ModItems.Crusher, 0, 4));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.GoldOre, 2), new ItemStack(Blocks.gold_ore), new ItemStack(ModItems.Crusher, 1, 3));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.GoldOre, 2), new ItemStack(Blocks.gold_ore), new ItemStack(ModItems.Crusher, 1, 2));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.GoldOre, 2), new ItemStack(Blocks.gold_ore), new ItemStack(ModItems.Crusher, 1, 1));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.GoldOre, 2), new ItemStack(Blocks.gold_ore), new ItemStack(ModItems.Crusher, 1, 0));
@@ -59,6 +76,32 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.CastGoldplate), "CI ", "IC ", "   ", 'C', new ItemStack(Items.clay_ball), 'I', new ItemStack(ModItems.GoldOre));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.BlockToolTable), "ISI", "SWS", "ISI", 'I', new ItemStack(Items.iron_ingot), 'S', new ItemStack(ModItems.steel), 'W', new ItemStack(Blocks.crafting_table));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.BlockToolTable), "SIS", "IWI", "SIS", 'I', new ItemStack(Items.iron_ingot), 'S', new ItemStack(ModItems.steel), 'W', new ItemStack(Blocks.crafting_table));
+        //iron nugget
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 2), new ItemStack(ModItems.IronOre), new ItemStack(ModItems.Crusher, 1, 9));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 2), new ItemStack(ModItems.IronOre), new ItemStack(ModItems.Crusher, 1, 8));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 2), new ItemStack(ModItems.IronOre), new ItemStack(ModItems.Crusher, 1, 7));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 2), new ItemStack(ModItems.IronOre), new ItemStack(ModItems.Crusher, 1, 6));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 2), new ItemStack(ModItems.IronOre), new ItemStack(ModItems.Crusher, 1, 5));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 2), new ItemStack(ModItems.IronOre), new ItemStack(ModItems.Crusher, 1, 4));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 2), new ItemStack(ModItems.IronOre), new ItemStack(ModItems.Crusher, 1, 3));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 2), new ItemStack(ModItems.IronOre), new ItemStack(ModItems.Crusher, 1, 2));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 2), new ItemStack(ModItems.IronOre), new ItemStack(ModItems.Crusher, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 2), new ItemStack(ModItems.IronOre), new ItemStack(ModItems.Crusher, 1, 0));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 2), new ItemStack(ModItems.IronOre), new ItemStack(ModItems.Crusher, 0, 0));
+        //diamond chunk
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DiamondChunk, 2), new ItemStack(Items.diamond), new ItemStack(ModItems.Crusher, 1, 9));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DiamondChunk, 2), new ItemStack(Items.diamond), new ItemStack(ModItems.Crusher, 1, 8));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DiamondChunk, 2), new ItemStack(Items.diamond), new ItemStack(ModItems.Crusher, 1, 7));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DiamondChunk, 2), new ItemStack(Items.diamond), new ItemStack(ModItems.Crusher, 1, 6));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DiamondChunk, 2), new ItemStack(Items.diamond), new ItemStack(ModItems.Crusher, 1, 5));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DiamondChunk, 2), new ItemStack(Items.diamond), new ItemStack(ModItems.Crusher, 1, 4));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DiamondChunk, 2), new ItemStack(Items.diamond), new ItemStack(ModItems.Crusher, 1, 3));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DiamondChunk, 2), new ItemStack(Items.diamond), new ItemStack(ModItems.Crusher, 1, 2));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DiamondChunk, 2), new ItemStack(Items.diamond), new ItemStack(ModItems.Crusher, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DiamondChunk, 2), new ItemStack(Items.diamond), new ItemStack(ModItems.Crusher, 1, 0));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DiamondChunk, 2), new ItemStack(Items.diamond), new ItemStack(ModItems.Crusher, 0, 0));
+        GameRegistry.addRecipe(new ItemStack(Items.iron_ingot), "III", "III", "III", 'I', new ItemStack(ModItems.ironnugget));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 9), new ItemStack(Items.iron_ingot));
     }
 
     public static void toolrecipe(ToolTableCraftingManager craftingManager){
@@ -71,5 +114,24 @@ public class Recipes
         craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"#D  ", " I  ", " I  ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
         craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{" D  ", "#I  ", " I  ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
         craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{" D  ", " I  ", "#I  ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
+        craftingManager.addRecipe(new ItemStack(ModItems.Snowballlauncher, 1), new Object[]{"#BBB", "   B", " BBR", '#', new ItemStack(ModItems.SchematicSnowZooka), 'B', new ItemStack(Blocks.obsidian),'R', new ItemStack(Items.blaze_rod)});
+        craftingManager.addRecipe(new ItemStack(ModItems.Snowballlauncher, 1), new Object[]{" BBB", "#  B", " BBR", '#', new ItemStack(ModItems.SchematicSnowZooka), 'B', new ItemStack(Blocks.obsidian),'R', new ItemStack(Items.blaze_rod)});
+        craftingManager.addRecipe(new ItemStack(ModItems.Snowballlauncher, 1), new Object[]{" BBB", "   B", "#BBR", '#', new ItemStack(ModItems.SchematicSnowZooka), 'B', new ItemStack(Blocks.obsidian),'R', new ItemStack(Items.blaze_rod)});
+    }
+
+    public static void oreRecipe(){
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), " T ", "TWT", " T ", 'T', "ingotThaumium", 'W', new ItemStack(Blocks.crafting_table)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), " T ", "TWT", " T ", 'T', "ingotManasteel", 'W', new ItemStack(Blocks.crafting_table)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), " T ", "TWT", " T ", 'T', "ingotTerrasteel", 'W', new ItemStack(Blocks.crafting_table)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), " T ", "TWT", " T ", 'T', "ingotElvenElementium", 'W', new ItemStack(Blocks.crafting_table)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), " T ", "TWT", " T ", 'T', "ingotEnderium", 'W', new ItemStack(Blocks.crafting_table)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), " T ", "TWT", " T ", 'T', "ingotElectrum", 'W', new ItemStack(Blocks.crafting_table)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), " T ", "TWT", " T ", 'T', "ingotInvar", 'W', new ItemStack(Blocks.crafting_table)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), "ITI", "TWT", "ITI", 'T', "ingotSteel", 'W', new ItemStack(Blocks.crafting_table), 'I', new ItemStack(Items.iron_ingot)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), " T ", "TWT", " T ", 'T', "ingotCobalt", 'W', new ItemStack(Blocks.crafting_table)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), " T ", "TWT", " T ", 'T', "ingotArdite", 'W', new ItemStack(Blocks.crafting_table)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), " T ", "TWT", " T ", 'T', "ingotManyullyn", 'W', new ItemStack(Blocks.crafting_table)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.BotaniaSword), " S ", "BRB", "FTF", 'S', "ingotTerrasteel", 'B', "manaPetalBlack", 'R', "runeWrathB", 'F', "mysticFlowerRed", 'T', "livingwoodTwig"));
+
     }
 }
