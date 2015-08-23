@@ -117,6 +117,16 @@ public class Recipes
         craftingManager.addRecipe(new ItemStack(ModItems.Snowballlauncher, 1), new Object[]{"#BBB", "   B", " BBR", '#', new ItemStack(ModItems.SchematicSnowZooka), 'B', new ItemStack(Blocks.obsidian),'R', new ItemStack(Items.blaze_rod)});
         craftingManager.addRecipe(new ItemStack(ModItems.Snowballlauncher, 1), new Object[]{" BBB", "#  B", " BBR", '#', new ItemStack(ModItems.SchematicSnowZooka), 'B', new ItemStack(Blocks.obsidian),'R', new ItemStack(Items.blaze_rod)});
         craftingManager.addRecipe(new ItemStack(ModItems.Snowballlauncher, 1), new Object[]{" BBB", "   B", "#BBR", '#', new ItemStack(ModItems.SchematicSnowZooka), 'B', new ItemStack(Blocks.obsidian),'R', new ItemStack(Items.blaze_rod)});
+        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"#D  ", " D  ", " B  ", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
+        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{" D  ", "#D  ", " B  ", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
+        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{" D  ", " D  ", "#B  ", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
+        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"# D ", "  D ", "  B ", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
+        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"  D ", "# D ", "  B ", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
+        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"  D ", "  D ", "# B ", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
+        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"#  D", "   D", "   B", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
+        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"   D", "#  D", "   B", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
+        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"   D", "   D", "#  B", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
+
     }
 
     public static void oreRecipe(){

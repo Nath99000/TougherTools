@@ -54,6 +54,6 @@ public class ToolTable extends BlockContainer{
 
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister iconregister){
-        this.blockIcon = iconregister.registerIcon(Reference.Id + ":ToolTableIcon");
+        this.blockIcon = iconregister.registerIcon(Reference.Id + ":SteelBlock");
     }
 }
