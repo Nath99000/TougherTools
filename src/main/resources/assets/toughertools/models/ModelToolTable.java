@@ -18,48 +18,48 @@ public class ModelToolTable extends ModelBase
   {
     textureWidth = 64;
     textureHeight = 64;
-    
-      Base = new ModelRenderer(this, 0, 0);
-      Base.addBox(0F, 0F, 0F, 12, 2, 12);
-      Base.setRotationPoint(-5F, 22F, -6F);
-      Base.setTextureSize(64, 64);
-      Base.mirror = true;
-      setRotation(Base, 0F, 0F, 0F);
 
-      Leg1 = new ModelRenderer(this, 0, 43);
-      Leg1.addBox(0F, 0F, 0F, 2, 7, 2);
-      Leg1.setRotationPoint(-4F, 16F, 3F);
-      Leg1.setTextureSize(64, 64);
-      Leg1.mirror = true;
-      setRotation(Leg1, 0F, 0F, 0F);
+    Base = new ModelRenderer(this, 0, 0);
+    Base.addBox(0F, 0F, 0F, 15, 2, 15);
+    Base.setRotationPoint(-7.5F, 22F, -7.5F);
+    Base.setTextureSize(64, 64);
+    Base.mirror = true;
+    setRotation(Base, 0F, 0F, 0F);
 
-      Leg2 = new ModelRenderer(this, 0, 43);
-      Leg2.addBox(0F, 0F, 0F, 2, 7, 2);
-      Leg2.setRotationPoint(-4F, 16F, -5F);
-      Leg2.setTextureSize(64, 64);
-      Leg2.mirror = true;
-      setRotation(Leg2, 0F, 0F, 0F);
+    Leg1 = new ModelRenderer(this, 0, 23);
+    Leg1.addBox(0F, 0F, 0F, 2, 10, 2);
+    Leg1.setRotationPoint(-7F, 12F, -7F);
+    Leg1.setTextureSize(64, 64);
+    Leg1.mirror = true;
+    setRotation(Leg1, 0F, 0F, 0F);
 
-      Head = new ModelRenderer(this, 0, 14);
-      Head.addBox(0F, 0F, 0F, 12, 4, 18);
-      Head.setRotationPoint(-5F, 12F, -9F);
-      Head.setTextureSize(64, 64);
-      Head.mirror = true;
-      setRotation(Head, 0F, 0F, 0F);
+    Leg2 = new ModelRenderer(this, 0, 23);
+    Leg2.addBox(0F, 0F, 0F, 2, 10, 2);
+    Leg2.setRotationPoint(5F, 12F, 5F);
+    Leg2.setTextureSize(64, 64);
+    Leg2.mirror = true;
+    setRotation(Leg2, 0F, 0F, 0F);
 
-      Leg3 = new ModelRenderer(this, 0, 43);
-      Leg3.addBox(0F, 0F, 0F, 2, 7, 2);
-      Leg3.setRotationPoint(4F, 16F, -5F);
-      Leg3.setTextureSize(64, 64);
-      Leg3.mirror = true;
-      setRotation(Leg3, 0F, 0F, 0F);
+    Leg3 = new ModelRenderer(this, 0, 23);
+    Leg3.addBox(0F, 0F, 0F, 2, 10, 2);
+    Leg3.setRotationPoint(5F, 12F, -7F);
+    Leg3.setTextureSize(64, 64);
+    Leg3.mirror = true;
+    setRotation(Leg3, 0F, 0F, 0F);
 
-      Leg4 = new ModelRenderer(this, 0, 43);
-      Leg4.addBox(0F, 0F, 0F, 2, 7, 2);
-      Leg4.setRotationPoint(4F, 16F, 3F);
-      Leg4.setTextureSize(64, 64);
-      Leg4.mirror = true;
-      setRotation(Leg4, 0F, 0F, 0F);
+    Leg4 = new ModelRenderer(this, 0, 23);
+    Leg4.addBox(0F, 0F, 0F, 2, 10, 2);
+    Leg4.setRotationPoint(-7F, 12F, 5F);
+    Leg4.setTextureSize(64, 64);
+    Leg4.mirror = true;
+    setRotation(Leg4, 0F, 0F, 0F);
+
+    Head = new ModelRenderer(this, 0, 0);
+    Head.addBox(0F, 0F, 0F, 16, 5, 16);
+    Head.setRotationPoint(-8F, 7F, -8F);
+    Head.setTextureSize(64, 64);
+    Head.mirror = true;
+    setRotation(Head, 0F, 0F, 0F);
   }
   
   public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5)
