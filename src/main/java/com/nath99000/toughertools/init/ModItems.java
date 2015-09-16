@@ -1,6 +1,7 @@
 package com.nath99000.toughertools.init;
 
 import com.nath99000.toughertools.Reference.Names;
+import com.nath99000.toughertools.item.Ammunition.ItemExploderCore;
 import com.nath99000.toughertools.item.Ammunition.ItemSnowClip;
 import com.nath99000.toughertools.item.Axes.ItemAxeW1;
 import com.nath99000.toughertools.item.Axes.ItemAxeW2;
@@ -9,6 +10,8 @@ import com.nath99000.toughertools.item.Hoes.*;
 import com.nath99000.toughertools.item.Items.*;
 import com.nath99000.toughertools.item.Items.ItemPlaceHolder;
 import com.nath99000.toughertools.item.Materials.*;
+import com.nath99000.toughertools.item.Miscellaneous.ItemCable;
+import com.nath99000.toughertools.item.Miscellaneous.ItemChipset;
 import com.nath99000.toughertools.item.Miscellaneous.ItemSteelIngot;
 import com.nath99000.toughertools.item.Pickaxes.*;
 import com.nath99000.toughertools.item.Pickaxes.NightVision.ItemPickW4NV;
@@ -23,6 +26,9 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraftforge.common.util.EnumHelper;
+import scala.tools.cmd.Instance;
+
+import java.lang.reflect.Method;
 
 public class ModItems {
     public static final ItemTT LeatherStrips = new ItemLeatherStrips();
@@ -140,6 +146,12 @@ public class ModItems {
     public static Item Schematicscythe = new ASchematic("Scythe");
     public static Item Schematicdaedramace= new ASchematic("DemonsMace");
     public static Item Schematicmasamune= new ASchematic("Masamune");
+    public static Item squidgunred = new ItemInkBlaster("Red");
+    public static Item SchematicSquid = new ASchematic("SquidGun");
+    public static Item Bomb = new ItemBomb();
+    public static Item Exploder = new ItemExploder();
+    public static Item ExploderCore = new ItemExploderCore();
+    public static Item Chipset = new ItemChipset();
 
 
     public static void init() {
@@ -230,6 +242,11 @@ public class ModItems {
         GameRegistry.registerItem(botaniapetalblack, "botaniapetalblack");
         GameRegistry.registerItem(BotaniaSword, "BotaniaSword");
         GameRegistry.registerItem(ae2certus, "ae2certus");
+        register(Bomb, "Bomb");
+        register(Exploder, "Exploder");
+        register(ExploderCore, "ExploderCore");
+        register(Chipset, "Chipset");
+        register(new ItemCable(), "Cable");
     }
 
     public static void initII() {
@@ -242,5 +259,10 @@ public class ModItems {
         GameRegistry.registerItem(Schematicscythe, "Schematicscythe");
         GameRegistry.registerItem(Schematicdaedramace, "Schematicdaedramace");
         GameRegistry.registerItem(Schematicmasamune, "Schematicmasamune");
+        //GameRegistry.registerItem(SchematicSquid, "SchematicSquid");
+    }
+
+    private static void register(Item item, String name){
+        GameRegistry.registerItem(item, name);
     }
 }

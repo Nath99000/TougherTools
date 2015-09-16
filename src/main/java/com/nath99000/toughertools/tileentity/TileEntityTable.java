@@ -5,8 +5,22 @@ import net.minecraft.tileentity.TileEntity;
 
 public class TileEntityTable extends TileEntity {
 
+    public int tick;
+
     public TileEntityTable(){
-        //this may not be correct
-        markDirty();
+    }
+
+    @Override
+    public void updateEntity()
+    {
+        if (!worldObj.isRemote)
+        {
+            tick++;
+            if (tick == 10000)
+            {
+                tick = 0;
+                worldObj.markBlockForUpdate(xCoord, yCoord, zCoord);
+            }
+        }
     }
 }

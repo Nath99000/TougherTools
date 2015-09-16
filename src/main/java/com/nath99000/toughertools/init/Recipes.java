@@ -1,7 +1,11 @@
 package com.nath99000.toughertools.init;
 
 import com.nath99000.toughertools.crafting.ToolTableCraftingManager;
+import com.nath99000.toughertools.item.Miscellaneous.ItemCable;
+import com.nath99000.toughertools.item.Miscellaneous.ItemChipset;
+import com.nath99000.toughertools.item.Weaponry.ItemLightningStaff;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -9,6 +13,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
+
+import javax.annotation.Nullable;
 
 public class Recipes
 {
@@ -102,31 +108,23 @@ public class Recipes
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DiamondChunk, 2), new ItemStack(Items.diamond), new ItemStack(ModItems.Crusher, 0, 0));
         GameRegistry.addRecipe(new ItemStack(Items.iron_ingot), "III", "III", "III", 'I', new ItemStack(ModItems.ironnugget));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ironnugget, 9), new ItemStack(Items.iron_ingot));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ExploderCore), new ItemStack(Items.redstone), new ItemStack(ModItems.DiamondChunk), new ItemStack(Blocks.tnt), new ItemStack(ModItems.DiamondChunk), new ItemStack(Items.redstone), new ItemStack(ModItems.DiamondChunk), new ItemStack(ModItems.SteelChunk));
+        GameRegistry.addRecipe(new ItemStack(ModItems.ExploderCore), "RD ", "DTS", "RD ", 'R', new ItemStack(Items.redstone), 'D', new ItemStack(ModItems.DiamondChunk), 'T', new ItemStack(Blocks.tnt), 'S', new ItemStack(ModItems.SteelChunk));
+        GameRegistry.addRecipe(new ItemStack(ModItems.Chipset), " I ", "IGI", "NPN", 'I', new ItemStack(ModItems.ironnugget), 'G', new ItemStack(Items.dye, 2), 'N', new ItemStack(Items.gold_nugget), 'P', new ItemStack(Items.paper));
+        GameRegistry.addShapelessRecipe(stackIt(new ItemCable()), stackIt(Items.gold_nugget), stackIt(Items.slime_ball), stackIt(Items.gold_nugget), stackIt(Items.gold_nugget));
+        shapelesstwo(stackIt(Items.slime_ball), stackIt(Items.water_bucket), stackBlock(Blocks.sand));
+        GameRegistry.addRecipe(stackIt(ModItems.Bomb), "CTC", "WMW", "CWC", 'C', stackIt(ModItems.Chipset), 'T', stackIt(Items.clock), 'W', stackIt(new ItemCable()), 'M', stackIt(ModItems.ExploderCore));
+        shapelessone(stackIt(new ItemChipset()), stackIt(new ItemCable()));
     }
 
     public static void toolrecipe(ToolTableCraftingManager craftingManager){
-        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"#  D", "   I", "   I", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
-        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"   D", "#  I", "   I", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
-        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"   D", "   I", "#  I", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
-        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"  D ", "  I ", "# I ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
-        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"# D ", "  I ", "  I ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
-        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"  D ", "# I ", "  I ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
-        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{"#D  ", " I  ", " I  ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
-        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{" D  ", "#I  ", " I  ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
-        craftingManager.addRecipe(new ItemStack(ModItems.StaffLightning, 1), new Object[]{" D  ", " I  ", "#I  ", 'D', new ItemStack(Items.diamond), 'I', new ItemStack(Items.iron_ingot), '#', new ItemStack(ModItems.SchematicLightning)});
+        addVertToolRecipe(ModItems.StaffLightning, new ItemStack(Items.diamond), new ItemStack(Items.iron_ingot), new ItemStack(Items.iron_ingot), ModItems.SchematicLightning);
         craftingManager.addRecipe(new ItemStack(ModItems.Snowballlauncher, 1), new Object[]{"#BBB", "   B", " BBR", '#', new ItemStack(ModItems.SchematicSnowZooka), 'B', new ItemStack(Blocks.obsidian),'R', new ItemStack(Items.blaze_rod)});
         craftingManager.addRecipe(new ItemStack(ModItems.Snowballlauncher, 1), new Object[]{" BBB", "#  B", " BBR", '#', new ItemStack(ModItems.SchematicSnowZooka), 'B', new ItemStack(Blocks.obsidian),'R', new ItemStack(Items.blaze_rod)});
         craftingManager.addRecipe(new ItemStack(ModItems.Snowballlauncher, 1), new Object[]{" BBB", "   B", "#BBR", '#', new ItemStack(ModItems.SchematicSnowZooka), 'B', new ItemStack(Blocks.obsidian),'R', new ItemStack(Items.blaze_rod)});
-        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"#D  ", " D  ", " B  ", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
-        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{" D  ", "#D  ", " B  ", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
-        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{" D  ", " D  ", "#B  ", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
-        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"# D ", "  D ", "  B ", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
-        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"  D ", "# D ", "  B ", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
-        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"  D ", "  D ", "# B ", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
-        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"#  D", "   D", "   B", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
-        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"   D", "#  D", "   B", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
-        craftingManager.addRecipe(new ItemStack(ModItems.PlasmaBlade, 1), new Object[]{"   D", "   D", "#  B", '#', new ItemStack(ModItems.SchematicPlasmablade), 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Blocks.obsidian)});
-
+        addVertToolRecipe(ModItems.PlasmaBlade, new ItemStack(Items.diamond), new ItemStack(Items.iron_ingot), new ItemStack(Items.iron_ingot), ModItems.SchematicPlasmablade);
+        craftingManager.addRecipe(new ItemStack(ModItems.squidgunred, 1), new Object[]{"#IIN", "   I", " IIR", '#', new ItemStack(ModItems.SchematicSquid), 'I', new ItemStack(Items.iron_ingot), 'N', new ItemStack(Items.dye, 1, 1), 'R', new ItemStack(Items.blaze_rod)});
+        addVertToolRecipe(ModItems.Cleaver, new ItemStack(ModBlocks.Steel), new ItemStack(ModBlocks.Steel), new ItemStack(Items.iron_sword), ModItems.SchematicCleaver);
     }
 
     public static void oreRecipe(){
@@ -144,4 +142,66 @@ public class Recipes
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.BotaniaSword), " S ", "BRB", "FTF", 'S', "ingotTerrasteel", 'B', "manaPetalBlack", 'R', "runeWrathB", 'F', "mysticFlowerRed", 'T', "livingwoodTwig"));
 
     }
+
+    private static void addVertToolRecipe(Item output, ItemStack slot1, ItemStack slot2, ItemStack slot3, Item schematic){
+        addUnlocalisedVertToolRecipe(ToolTableCraftingManager.getInstance(), output, slot1, slot2, slot3, schematic);
+    }
+
+    private static void addUnlocalisedVertToolRecipe(ToolTableCraftingManager manager, Item output, ItemStack slot1, ItemStack slot2, ItemStack slot3, Item schematic){
+        manager.addRecipe(new ItemStack(output, 1), new Object[]{"#1  ", " 2  ", " 3  ", '#', new ItemStack(schematic), '1', slot1, '2', slot2, '3', slot3});
+        manager.addRecipe(new ItemStack(output, 1), new Object[]{" 1  ", "#2  ", " 3  ", '#', new ItemStack(schematic), '1', slot1, '2', slot2, '3', slot3});
+        manager.addRecipe(new ItemStack(output, 1), new Object[]{" 1  ", " 2  ", "#3  ", '#', new ItemStack(schematic), '1', slot1, '2', slot2, '3', slot3});
+        manager.addRecipe(new ItemStack(output, 1), new Object[]{"# 1 ", "  2 ", "  3 ", '#', new ItemStack(schematic), '1', slot1, '2', slot2, '3', slot3});
+        manager.addRecipe(new ItemStack(output, 1), new Object[]{"  1 ", "# 2 ", "  3 ", '#', new ItemStack(schematic), '1', slot1, '2', slot2, '3', slot3});
+        manager.addRecipe(new ItemStack(output, 1), new Object[]{"# 1 ", "  2 ", "# 3 ", '#', new ItemStack(schematic),'1', slot1, '2', slot2, '3', slot3});
+        manager.addRecipe(new ItemStack(output, 1), new Object[]{"#  1", "   2", "   3", '#', new ItemStack(schematic),'1', slot1, '2', slot2, '3', slot3});
+        manager.addRecipe(new ItemStack(output, 1), new Object[]{"   1", "#  2", "   3", '#', new ItemStack(schematic),'1', slot1, '2', slot2, '3', slot3});
+        manager.addRecipe(new ItemStack(output, 1), new Object[]{"   1", "   2", "   3", '#', new ItemStack(schematic), '1', slot1, '2', slot2, '3', slot3});
+    }
+
+    public static ItemStack stackIt(Item item){
+        return new ItemStack(item);
+    }
+
+    public static ItemStack stackBlock(Block block){
+        return new ItemStack(block);
+    }
+
+    private static void shapelessone(ItemStack output, ItemStack slot1){
+        GameRegistry.addShapelessRecipe(output, slot1);
+    }
+
+    private static void shapelesstwo(ItemStack output, ItemStack slot1, ItemStack slot2){
+        GameRegistry.addShapelessRecipe(output, slot1, slot2);
+    }
+
+    private static void shapelessthree(ItemStack output, ItemStack slot1, ItemStack slot2, ItemStack slot3){
+        GameRegistry.addShapelessRecipe(output, slot1, slot2, slot3);
+    }
+
+    private static void shapelessfour(ItemStack output, ItemStack slot1, ItemStack slot2, ItemStack slot3, ItemStack slot4){
+        GameRegistry.addShapelessRecipe(output, slot1, slot2, slot3, slot4);
+    }
+
+    private static void shapelessfive(ItemStack output, ItemStack slot1, ItemStack slot2, ItemStack slot3, ItemStack slot4, ItemStack slot5){
+        GameRegistry.addShapelessRecipe(output, slot1, slot2, slot3, slot4, slot5);
+    }
+
+    private static void shapelesssix(ItemStack output, ItemStack slot1, ItemStack slot2, ItemStack slot3, ItemStack slot4, ItemStack slot5, ItemStack slot6){
+        GameRegistry.addShapelessRecipe(output, slot1, slot2, slot3, slot4, slot5, slot6);
+    }
+
+    private static void shapelessseven(ItemStack output, ItemStack slot1, ItemStack slot2, ItemStack slot3, ItemStack slot4, ItemStack slot5, ItemStack slot6, ItemStack slot7){
+        GameRegistry.addShapelessRecipe(output, slot1, slot2, slot3, slot4, slot5, slot6, slot7);
+    }
+
+    private static void shapelesseight(ItemStack output, ItemStack slot1, ItemStack slot2, ItemStack slot3, ItemStack slot4, ItemStack slot5, ItemStack slot6, ItemStack slot7, ItemStack slot8){
+        GameRegistry.addShapelessRecipe(output, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8);
+    }
+
+    private static void shapelessnine(ItemStack output, ItemStack slot1, ItemStack slot2, ItemStack slot3, ItemStack slot4, ItemStack slot5, ItemStack slot6, ItemStack slot7, ItemStack slot8, ItemStack slot9){
+        GameRegistry.addShapelessRecipe(output, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9);
+    }
+
+
 }

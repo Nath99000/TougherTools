@@ -1,6 +1,6 @@
 package com.nath99000.toughertools.Render;
 
-import assets.toughertools.models.ModelToolTable;
+import com.nath99000.toughertools.models.ModelToolTable;
 import com.nath99000.toughertools.Reference.Reference;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.tileentity.TileEntity;

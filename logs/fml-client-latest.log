@@ -243,7 +243,7 @@ Details:
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package assets
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package assets.toughertools
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package assets.toughertools.lang
-[09:12:51] [Client thread/TRACE] [FML/]: Recursing into package assets.toughertools.models
+[09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.models
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package assets.toughertools.textures
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package assets.toughertools.textures.blocks
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package assets.toughertools.textures.gui

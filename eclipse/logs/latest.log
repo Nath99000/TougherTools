@@ -1,41 +1,27 @@
-[18:58:09] [main/INFO]: Setting user: Player756
-[18:58:11] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:58:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
-[18:58:22] [Sound Library Loader/INFO]: Sound engine started
-[18:58:25] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:58:25] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[18:58:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
-[18:58:25] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:58:25] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[18:58:26] [Sound Library Loader/INFO]: Sound engine started
-[18:58:31] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:58:31] [Server thread/INFO]: Generating keypair
-[18:58:32] [Server thread/INFO]: Preparing start region for level 0
-[18:58:32] [Server thread/INFO]: Changing view distance to 12, from 10
-[18:58:33] [Server thread/INFO]: Player756[local:E:1a9fb15d] logged in with entity id 48 at (1026.6061020530765, 57.0, -2479.1381375538876)
-[18:58:33] [Server thread/INFO]: Player756 joined the game
-[18:58:40] [Server thread/INFO]: Player756 has just earned the achievement [Taking Inventory]
-[18:58:40] [Client thread/INFO]: [CHAT] Player756 has just earned the achievement [Taking Inventory]
-[18:59:27] [Server thread/INFO]: Saving and pausing game...
-[18:59:27] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[18:59:27] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[18:59:27] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[18:59:53] [Server thread/INFO]: Saving and pausing game...
-[18:59:53] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[18:59:53] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[18:59:53] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[18:59:56] [Server thread/INFO]: Saving and pausing game...
-[18:59:56] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[18:59:56] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[18:59:56] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[19:00:20] [Server thread/INFO]: Saving and pausing game...
-[19:00:20] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[19:00:20] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[19:00:20] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[19:00:21] [Server thread/INFO]: Stopping server
-[19:00:21] [Server thread/INFO]: Saving players
-[19:00:21] [Server thread/INFO]: Saving worlds
-[19:00:21] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[19:00:21] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[19:00:21] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[19:00:22] [Client thread/INFO]: Stopping!
+[16:05:07] [main/INFO]: Setting user: Player699
+[16:05:10] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:05:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[16:05:28] [Sound Library Loader/INFO]: Sound engine started
+[16:05:32] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:05:32] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[16:05:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
+[16:05:33] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:05:33] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[16:05:34] [Sound Library Loader/INFO]: Sound engine started
+[16:05:41] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:05:41] [Server thread/INFO]: Generating keypair
+[16:05:41] [Server thread/INFO]: Preparing start region for level 0
+[16:05:45] [Server thread/INFO]: Changing view distance to 12, from 10
+[16:05:46] [Server thread/INFO]: Player699[local:E:8eff1c5c] logged in with entity id 4 at (-872.6688046334166, 56.0, 62.496431816243835)
+[16:05:46] [Server thread/INFO]: Player699 joined the game
+[16:05:55] [Server thread/INFO]: Saving and pausing game...
+[16:05:55] [Server thread/INFO]: Saving chunks for level 'Explosive test'/Overworld
+[16:05:55] [Server thread/INFO]: Saving chunks for level 'Explosive test'/Nether
+[16:05:55] [Server thread/INFO]: Saving chunks for level 'Explosive test'/The End
+[16:05:56] [Server thread/INFO]: Stopping server
+[16:05:56] [Server thread/INFO]: Saving players
+[16:05:56] [Server thread/INFO]: Saving worlds
+[16:05:56] [Server thread/INFO]: Saving chunks for level 'Explosive test'/Overworld
+[16:05:56] [Server thread/INFO]: Saving chunks for level 'Explosive test'/Nether
+[16:05:56] [Server thread/INFO]: Saving chunks for level 'Explosive test'/The End
+[16:05:57] [Client thread/INFO]: Stopping!

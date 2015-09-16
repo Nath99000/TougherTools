@@ -13,7 +13,7 @@ public class Names {
     public static String epic = ("§1Epic");
     public static String rare = ("§2Rare");
     public static String common = ("§7Common");
-    public static String botania = ("§2Botania");
+    public static String botania = ("2Botania");
     public static String tconstruct = ("§1Tinkers");
     public static String thaumcraft = ("§5Thaumcraft");
     public static String thermal = ("§4Thermal expansion");

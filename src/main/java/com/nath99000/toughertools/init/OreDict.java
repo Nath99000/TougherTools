@@ -29,5 +29,6 @@ public class OreDict {
         OreDictionary.registerOre("mysticFlowerRed", new ItemStack(ModItems.botaniaflowerred));
         OreDictionary.registerOre("livingwoodTwig", new ItemStack(ModItems.botaniastick));
         OreDictionary.registerOre("manaPetalBlack", new ItemStack(ModItems.botaniapetalblack));
+        OreDictionary.registerOre("circuitPyrotechnic", new ItemStack(ModItems.ExploderCore));
     }
 }
