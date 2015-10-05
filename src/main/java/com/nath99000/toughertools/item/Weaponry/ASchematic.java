@@ -10,46 +10,19 @@ import java.util.List;
 public class ASchematic extends SchematicTT {
 
     private String name;
+    private String tag;
 
-    public ASchematic(String toolName) {
+    public ASchematic(String toolName, String tagtext) {
         super();
         setUnlocalizedName("Schematic");
         name = toolName;
+        tag = tagtext;
     }
 
     public void addInformation(ItemStack itemStack, EntityPlayer player, List par3, boolean par4) {
         {
             par3.add("§k" + name);
-            if(name=="Cleaver"){
-                par3.add(Names.legendary);
-            }
-            if(name=="SnowballLauncher"){
-                par3.add(Names.epic);
-            }
-            if(name=="Dartgun"){
-                par3.add(Names.common);
-            }
-            if(name=="DaggerAssasin"){
-                par3.add(Names.rare);
-            }
-            if(name=="Arcanesword"){
-                par3.add(Names.rare);
-            }
-            if(name=="Plasmablade"){
-                par3.add(Names.rare);
-            }
-            if(name=="LightningStaff"){
-                par3.add(Names.godly);
-            }
-            if(name=="Scythe"){
-                par3.add(Names.common);
-            }
-            if(name=="DemonsMace"){
-                par3.add(Names.godly);
-            }
-            if(name=="Masamune"){
-                par3.add(Names.legendary);
-            }
+            par3.add(tag);
         }
     }
 }

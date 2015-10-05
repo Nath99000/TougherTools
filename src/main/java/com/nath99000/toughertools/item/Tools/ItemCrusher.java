@@ -17,6 +17,7 @@ public class ItemCrusher extends ItemTT {
         setMaxDamage(7);
         setMaxStackSize(1);
         this.setMaxStackSize(1);
+        canRepair = false;
     }
 
     @Override

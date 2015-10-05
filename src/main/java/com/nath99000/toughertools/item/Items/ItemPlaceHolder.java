@@ -1,3 +1,4 @@
+
 package com.nath99000.toughertools.item.Items;
 
 import com.nath99000.toughertools.Reference.Reference;
@@ -24,7 +25,7 @@ public class ItemPlaceHolder extends com.nath99000.toughertools.item.Wrapper.Ite
     }
 
     public void addInformation(ItemStack itemStack, EntityPlayer player, List par3, boolean par4) {
-      par3.add(phname);
-      par3.add(modname);
+        par3.add(phname);
+        par3.add(modname);
     }
 }

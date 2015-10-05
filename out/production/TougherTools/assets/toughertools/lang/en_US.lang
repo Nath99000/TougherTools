@@ -1,48 +1,47 @@
 item.toughertools:LeatherStrips.name=Leather strips
 item.toughertools:BindingL1.name=Leather binding
 item.toughertools:ToolHeadW1.name=Wooden tool head
-item.PickW1.name=Leather-bound wooden pickaxe
+item.toughertools:PickW1.name=Leather-bound wooden pickaxe
 item.toughertools:StoneCutter.name=Stone cutter
 item.toughertools:BindingL2.name=Leather binding
 item.toughertools:ToolHeadW2.name=Wooden tool head
-item.PickW2.name=Leather-bound wooden pickaxe
+item.toughertools:PickW2.name=Leather-bound wooden pickaxe
 item.toughertools:StoneShard.name=Stone shard
 item.toughertools:PlateW1.name=Wooden plate
 item.toughertools:PlateW2.name=Wooden plate
 item.toughertools:Scraper.name=Stone scraper
 item.toughertools:Plank.name=Wooden plank
-item.toughertools:
-item.AxeW1.name=Leather-bound wooden axe
-item.ShovelW1.name=Leather-bound wooden shovel
+item.toughertools:AxeW1.name=Leather-bound wooden axe
+item.toughertools:ShovelW1.name=Leather-bound wooden shovel
 item.toughertools:Snowclip.name=Snow clip
 item.toughertools:Snowballlauncher.name=SnowBall launcher
-item.HoeW1.name=Leather-bound wooden hoe
+item.toughertools:HoeW1.name=Leather-bound wooden hoe
 item.toughertools:BladeW1.name=Wooden blade
 item.toughertools:WandcoreW1.name=Wooden wand core
 tile.SmelterIdle.name=§8Smelter(WIP)
 tile.SmelterActive.name=§8Smelter(WIP)
-item.SwordW1.name=Leather-bound wooden sword
-item.ShovelW2.name=Leather-bound wooden shovel
-item.AxeW2.name=Leather-bound wooden axe
-item.HoeW2.name=Leather-bound wooden hoe
-item.SwordW2.name=Leather-bound wooden sword
+item.toughertools:SwordW1.name=Leather-bound wooden sword
+item.toughertools:ShovelW2.name=Leather-bound wooden shovel
+item.toughertools:AxeW2.name=Leather-bound wooden axe
+item.toughertools:HoeW2.name=Leather-bound wooden hoe
+item.toughertools:SwordW2.name=Leather-bound wooden sword
 item.toughertools:DartGun.name=MiniDart gun
-item.SwordW3.name=Iron-bound wooden sword
-item.SwordW4.name=§6Gilded wooden sword
-item.SwordW5.name=§3Diamond-bound wooden sword
-item.PickW3.name=Iron-bound wooden pickaxe
-item.PickW4.name=§6Gilded wooden pickaxe
-item.PickW5.name=§3Diamond-bound wooden pickaxe
-item.HoeW3.name=Iron-bound wooden hoe
-item.HoeW4.name=§6Gilded wooden hoe
-item.HoeW5.name=§3Diamond-bound wooden hoe
-item.ShovelW3.name=Iron-bound wooden shovel
-item.ShovelW4.name=§6Gilded wooden shovel
-item.ShovelW5.name=§3Diamond-bound wooden shovel
-item.AxeW3.name=Iron-bound wooden axe
-item.AxeW4.name=§6Gilded wooden axe
-item.AxeW5.name=§3Diamond-bound wooden axe
-item.PickW5nv.name=§3Diamond-bound wooden pickaxe
+item.toughertools:SwordW3.name=Iron-bound wooden sword
+item.toughertools:SwordW4.name=§6Gilded wooden sword
+item.toughertools:SwordW5.name=§3Diamond-bound wooden sword
+item.toughertools:PickW3.name=Iron-bound wooden pickaxe
+item.toughertools:PickW4.name=§6Gilded wooden pickaxe
+item.toughertools:PickW5.name=§3Diamond-bound wooden pickaxe
+item.toughertools:HoeW3.name=Iron-bound wooden hoe
+item.toughertools:HoeW4.name=§6Gilded wooden hoe
+item.toughertools:HoeW5.name=§3Diamond-bound wooden hoe
+item.toughertools:ShovelW3.name=Iron-bound wooden shovel
+item.toughertools:ShovelW4.name=§6Gilded wooden shovel
+item.toughertools:ShovelW5.name=§3Diamond-bound wooden shovel
+item.toughertools:AxeW3.name=Iron-bound wooden axe
+item.toughertools:AxeW4.name=§6Gilded wooden axe
+item.toughertools:AxeW5.name=§3Diamond-bound wooden axe
+item.toughertools:PickW5nv.name=§3Diamond-bound wooden pickaxe
 item.toughertools:Cleaver.name=Cleaver
 item.toughertools:IronOre.name=Iron ore chunk
 item.toughertools:GoldOre.name=Gold ore chunk
@@ -51,12 +50,12 @@ item.toughertools:SteelChunk.name=Chunk o' steel
 item.toughertools:Crusher.name=Crusher
 item.toughertools:Schematic.name=Schematic
 item.toughertools:SteelIngot.name=Steel ingot
-item.PickW4nv.name=§6Gilded wooden pickaxe
-item.PickS1.name=Leather-bound stone pickaxe
-item.PickS2.name=Leather-bound stone pickaxe
-item.PickS3.name=Iron-bound stone pickaxe
-item.PickS4.name=§6Gilded stone pickaxe
-item.PickS5.name=§3Diamond-bound stone pickaxe
+item.toughertools:PickW4nv.name=§6Gilded wooden pickaxe
+item.toughertools:PickS1.name=Leather-bound stone pickaxe
+item.toughertools:PickS2.name=Leather-bound stone pickaxe
+item.toughertools:PickS3.name=Iron-bound stone pickaxe
+item.toughertools:PickS4.name=§6Gilded stone pickaxe
+item.toughertools:PickS5.name=§3Diamond-bound stone pickaxe
 tile.toughertools:SteelBlock.name=Block o' steel
 item.toughertools:Dagger.name=Steel dagger
 item.toughertools:CastInlay.name=Inlay cast
@@ -82,3 +81,18 @@ item.toughertools:Exploder.name=Exploder
 item.toughertools:ExploderCore.name=Pyrotechnic core
 item.toughertools:Chipset.name=Computational chipset
 item.toughertools:Cable.name=Cable
+
+
+//tooltips
+toughertools.tooltip.botanical=§2Botania
+toughertools.tooltip.ae2=§3AE2
+toughertools.tooltip.thaumic=5Thaumcraft
+toughertools.tooltip.thermal=§4Thermal expansion
+toughertools.tooltip.tinkerer=§1Tinkers
+toughertools.tooltip.quasar=§6QuasarCraft
+toughertools.tooltip.
+toughertools.tooltip.
+toughertools.tooltip.
+toughertools.tooltip.
+toughertools.tooltip.
+toughertools.tooltip.

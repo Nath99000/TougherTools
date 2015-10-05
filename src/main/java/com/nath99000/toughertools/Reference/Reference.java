@@ -17,5 +17,6 @@ public class Reference
     public static final String Id = "TougherTools";
     public static final String Name = "Tougher Tools";
     public static final String Version = "1.7.10-10";
+    public static final int Maxitems = 10000;
     //public static Function tag = public void addInformation(ItemStack par1, EntityPlayer par2, List par3, boolean par4) {{par3.add("Well made");}}
 }

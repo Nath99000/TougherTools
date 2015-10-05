@@ -30,5 +30,6 @@ public class OreDict {
         OreDictionary.registerOre("livingwoodTwig", new ItemStack(ModItems.botaniastick));
         OreDictionary.registerOre("manaPetalBlack", new ItemStack(ModItems.botaniapetalblack));
         OreDictionary.registerOre("circuitPyrotechnic", new ItemStack(ModItems.ExploderCore));
+        OreDictionary.registerOre("materialRealityThreadFALSE", ModItems.realPlaceHolder);
     }
 }

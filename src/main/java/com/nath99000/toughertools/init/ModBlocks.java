@@ -9,10 +9,9 @@ public class ModBlocks {
     public static Block SmelterIdle;
     public static Block SmelterActive;
     public static final int guiIDSmelter = 0;
-    public static BlockTT Steel = new BlockSteel();
     public static Block BlockToolTable;
     public static final int guiIDToolTable = 1;
-    public static Block inkred = new BlockInk("Red");
+    public static final Block steelBlock = new BlockSteel();
 
     public static void init(){
         SmelterIdle = new Smelter(false).setBlockName("SmelterIdle").setCreativeTab(TTTab.TTTab).setHardness(3.5F);
@@ -20,8 +19,7 @@ public class ModBlocks {
         BlockToolTable = new ToolTable();
         GameRegistry.registerBlock(SmelterIdle, "SmelterIdle");
         GameRegistry.registerBlock(SmelterActive, "SmelterActive");
-        GameRegistry.registerBlock(Steel, "Steel");
         GameRegistry.registerBlock(BlockToolTable, "ModelToolTable");
-        //GameRegistry.registerBlock(inkred, "inkred");
+        GameRegistry.registerBlock(steelBlock, "steelBlock");
     }
 }

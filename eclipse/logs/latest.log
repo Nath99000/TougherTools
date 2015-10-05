@@ -1,27 +1,3 @@
-[16:05:07] [main/INFO]: Setting user: Player699
-[16:05:10] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:05:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
-[16:05:28] [Sound Library Loader/INFO]: Sound engine started
-[16:05:32] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:05:32] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:05:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools
-[16:05:33] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:05:33] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:05:34] [Sound Library Loader/INFO]: Sound engine started
-[16:05:41] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:05:41] [Server thread/INFO]: Generating keypair
-[16:05:41] [Server thread/INFO]: Preparing start region for level 0
-[16:05:45] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:05:46] [Server thread/INFO]: Player699[local:E:8eff1c5c] logged in with entity id 4 at (-872.6688046334166, 56.0, 62.496431816243835)
-[16:05:46] [Server thread/INFO]: Player699 joined the game
-[16:05:55] [Server thread/INFO]: Saving and pausing game...
-[16:05:55] [Server thread/INFO]: Saving chunks for level 'Explosive test'/Overworld
-[16:05:55] [Server thread/INFO]: Saving chunks for level 'Explosive test'/Nether
-[16:05:55] [Server thread/INFO]: Saving chunks for level 'Explosive test'/The End
-[16:05:56] [Server thread/INFO]: Stopping server
-[16:05:56] [Server thread/INFO]: Saving players
-[16:05:56] [Server thread/INFO]: Saving worlds
-[16:05:56] [Server thread/INFO]: Saving chunks for level 'Explosive test'/Overworld
-[16:05:56] [Server thread/INFO]: Saving chunks for level 'Explosive test'/Nether
-[16:05:56] [Server thread/INFO]: Saving chunks for level 'Explosive test'/The End
-[16:05:57] [Client thread/INFO]: Stopping!
+[20:08:56] [main/INFO]: Setting user: Player425
+[20:08:59] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:09:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TougherTools

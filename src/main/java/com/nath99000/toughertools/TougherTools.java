@@ -25,15 +25,14 @@ public class TougherTools {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent preinit){
         LogHelper.info("PreInitialization beginning!");
+        VanillaHandler.smelting();
+        Recipes.init();
         //
         ModEntity.register();
         ModBlocks.init();
         ModItems.init();
-        ModItems.initII();
         OreDict.init();
         VanillaHandler.init();
-        VanillaHandler.smelting();
-        Recipes.init();
         Recipes.oreRecipe();
         Recipes.toolrecipe(ToolTableCraftingManager.getInstance());
         ChestHandler.init();

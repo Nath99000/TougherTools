@@ -12,7 +12,7 @@ public class TTTab
         @Override
         public Item getTabIconItem()
         {
-            return ModItems.PickW1;
+            return ModItems.pickw[1];
         }
         @Override
     public String getTranslatedTabLabel()
