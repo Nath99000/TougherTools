@@ -37,21 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChestHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/init/ChestHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="156" selection-start-line="26" selection-start-column="156" selection-end-line="26" selection-end-column="156" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ModItems.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/init/ModItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57990116">
-              <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="248" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.8039539">
+              <caret line="249" column="1" selection-start-line="249" selection-start-column="1" selection-end-line="249" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,11 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crash-2015-10-05_20.09.12-client.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eclipse/crash-reports/crash-2015-10-05_20.09.12-client.txt">
+      <file leaf-file-name="crash-2015-10-06_17.13.38-client.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eclipse/crash-reports/crash-2015-10-06_17.13.38-client.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="120" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+              <caret line="8" column="72" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemStack.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forgeSrc-1.7.10-10.13.4.1448-1.7.10-sources.jar!/net/minecraft/item/ItemStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="264" column="41" selection-start-line="264" selection-start-column="41" selection-end-line="264" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -73,10 +73,27 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/creativetab/TTTab.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding>
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#432#433#0" expanded="false" />
+                <element signature="e#480#481#0" expanded="false" />
+                <element signature="e#550#551#0" expanded="false" />
+                <element signature="e#595#596#0" expanded="false" />
+                <element signature="e#871#872#0" expanded="false" />
+                <element signature="e#927#928#0" expanded="false" />
+                <element signature="e#1085#1086#0" expanded="false" />
+                <element signature="e#1138#1139#0" expanded="false" />
+                <element signature="e#1212#1213#0" expanded="false" />
+                <element signature="e#1263#1264#0" expanded="false" />
+                <element signature="e#1427#1428#0" expanded="false" />
+                <element signature="e#1477#1478#0" expanded="false" />
+                <element signature="e#1551#1552#0" expanded="false" />
+                <element signature="e#1609#1610#0" expanded="false" />
+                <element signature="e#1756#1757#0" expanded="false" />
+                <element signature="e#1803#1804#0" expanded="false" />
+                <element signature="e#1864#1865#0" expanded="false" />
+                <element signature="e#1916#1917#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -86,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/Weaponry/ASchematic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,38 +115,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TougherTools.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/TougherTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FMLControlledNamespacedRegistry.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forgeSrc-1.7.10-10.13.4.1448-1.7.10-sources.jar!/cpw/mods/fml/common/registry/FMLControlledNamespacedRegistry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="370" column="33" selection-start-line="370" selection-start-column="33" selection-end-line="370" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToolTablePad.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/Miscellaneous/ToolTablePad.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="80" selection-start-line="29" selection-start-column="80" selection-end-line="29" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -196,11 +181,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/block/BlockSteel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/init/ModBlocks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/Weaponry/BSchematic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/Weaponry/ASchematic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/init/Recipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/Miscellaneous/ToolTablePad.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/init/ChestHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/creativetab/TTTab.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/Weaponry/ASchematic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/init/ModItems.java" />
       </list>
     </option>
@@ -1134,30 +1119,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/Weaponry/ItemDaedraMace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5041186">
-          <caret line="28" column="93" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/WeaponPyrotechnics/ItemExploder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/WeaponPyrotechnics/ItemLandmine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forgeSrc-1.7.10-10.13.4.1448-1.7.10-sources.jar!/cpw/mods/fml/common/registry/GameRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1324,17 +1285,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forgeSrc-1.7.10-10.13.4.1448-1.7.10-sources.jar!/net/minecraft/item/ItemStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
-          <folding>
-            <element signature="e#2715#2716#0" expanded="false" />
-            <element signature="e#2762#2763#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1520,14 +1470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/Weaponry/ASchematic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/init/Recipes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1535,17 +1477,6 @@
           <folding>
             <element signature="e#21016#21017#0" expanded="true" />
             <element signature="e#21058#21059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/creativetab/TTTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding>
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1558,10 +1489,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eclipse/crash-reports/crash-2015-10-06_16.59.48-client.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eclipse/crash-reports/crash-2015-10-06_17.01.04-client.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forgeSrc-1.7.10-10.13.4.1448-1.7.10-sources.jar!/net/minecraft/item/ItemStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="264" column="41" selection-start-line="264" selection-start-column="41" selection-end-line="264" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eclipse/crash-reports/crash-2015-10-06_17.13.38-client.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/creativetab/TTTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#432#433#0" expanded="false" />
+            <element signature="e#480#481#0" expanded="false" />
+            <element signature="e#550#551#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#871#872#0" expanded="false" />
+            <element signature="e#927#928#0" expanded="false" />
+            <element signature="e#1085#1086#0" expanded="false" />
+            <element signature="e#1138#1139#0" expanded="false" />
+            <element signature="e#1212#1213#0" expanded="false" />
+            <element signature="e#1263#1264#0" expanded="false" />
+            <element signature="e#1427#1428#0" expanded="false" />
+            <element signature="e#1477#1478#0" expanded="false" />
+            <element signature="e#1551#1552#0" expanded="false" />
+            <element signature="e#1609#1610#0" expanded="false" />
+            <element signature="e#1756#1757#0" expanded="false" />
+            <element signature="e#1803#1804#0" expanded="false" />
+            <element signature="e#1864#1865#0" expanded="false" />
+            <element signature="e#1916#1917#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/item/Weaponry/ASchematic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nath99000/toughertools/init/ModItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57990116">
-          <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="248" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.8039539">
+          <caret line="249" column="1" selection-start-line="249" selection-start-column="1" selection-end-line="249" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

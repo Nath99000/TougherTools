@@ -170,7 +170,7 @@ public class ModItems {
         GameRegistry.registerItem(steel, "steel");
         GameRegistry.registerItem(dagger = new ItemDagger(Dagger, "Dagger"), "Dagger");
         GameRegistry.registerItem(daggerAssasin = new ItemAssasinDagger(Dagger, "DaggerAssasin"), "DaggerAssasin");
-        GameRegistry.registerItem(SchematicAssasin, "SchematicAssasin");
+
         GameRegistry.registerItem(CastIronInlay, "CastIronInlay");
         GameRegistry.registerItem(CastGoldInlay, "CastGoldInlay");
         GameRegistry.registerItem(CastIronplate, "CastIronplate");
@@ -206,9 +206,9 @@ public class ModItems {
         GameRegistry.registerItem(Chipset, "Chipset");
         GameRegistry.registerItem(Wire, "Cable");
         GameRegistry.registerItem(realPlaceHolder, "realPlaceHolder");
+        GameRegistry.registerItem(tooltable, "tooltable");
         registerSchematic(SchematicArcaneSword, SchematicArcaneSword2, "ArcaneSword", Names.rare, false);
         registerSchematic(SchematicAssasin, SchematicAssasin2, "AssasinDagger", Names.rare, false);
-        GameRegistry.registerItem(tooltable, "tooltable");
         registerSchematic(SchematicSnowballGun, SchematicSnowballGun2, "SnowZooka", Names.epic, false);
         registerSchematic(SchematicPlasmaBlade, SchematicPlasmaBlade2, "PlasmaBlade", Names.rare, false);
         registerSchematic(SchematicCleaver, SchematicCleaver2, "Cleaver", Names.legendary, false);
@@ -239,8 +239,8 @@ public class ModItems {
     private static void registerSchematic(Item schem1, Item schem2, String name, String tag, boolean usesAltRecipe){
         schem1 = new ASchematic(name, tag);
         schem2 = new BSchematic(name, tag);
-        GameRegistry.registerItem(schem1, name);
-        GameRegistry.registerItem(schem2, name);
+        GameRegistry.registerItem(schem1, "Schematic"+name);
+        GameRegistry.registerItem(schem2, "FinalSchematic" + name);
         if(usesAltRecipe){
             GameRegistry.addShapelessRecipe(new ItemStack(schem2), new ItemStack(schem1), new ItemStack(Items.feather), new ItemStack(Items.dye, 1, 0));
         } else {
