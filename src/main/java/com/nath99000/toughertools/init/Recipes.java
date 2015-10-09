@@ -114,8 +114,7 @@ public class Recipes
         GameRegistry.addShapelessRecipe(stackIt(Items.slime_ball), stackIt(Items.water_bucket), stackBlock(Blocks.sand));
         GameRegistry.addRecipe(stackIt(ModItems.Bomb), "$C$", "RXR", "$R$", '$', stackIt(ModItems.Chipset), 'C', stackIt(Items.clock), 'R', stackIt(ModItems.Wire), 'X', stackIt(ModItems.ExploderCore));
         GameRegistry.addRecipe(stackIt(ModItems.Exploder), "STS", "CXC", "SSS", 'S', stackIt(ModItems.steel), 'T', stackBlock(Blocks.tnt), 'C', stackIt(ModItems.Wire), 'X', stackIt(ModItems.ExploderCore));
-
-        GameRegistry.addRecipe(new ItemStack(ModBlocks.steelBlock), "SIS", "ISI", "SIS", 'S', new ItemStack(ModItems.steel), 'I', new ItemStack(Items.iron_ingot));
+        //GameRegistry.addShapelessRecipe(new ItemStack(ModItems.spellSpectator), stackIt(Items.slime_ball), stackIt(Items.glowstone_dust), stackIt(Items.redstone));
     }
 
     public static void toolrecipe(ToolTableCraftingManager craftingManager){

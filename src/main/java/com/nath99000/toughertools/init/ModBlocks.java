@@ -12,6 +12,7 @@ public class ModBlocks {
     public static Block BlockToolTable;
     public static final int guiIDToolTable = 1;
     public static final Block steelBlock = new BlockSteel();
+    public static final Block clear = new BlockClear();
 
     public static void init(){
         SmelterIdle = new Smelter(false).setBlockName("SmelterIdle").setCreativeTab(TTTab.TTTab).setHardness(3.5F);
@@ -21,5 +22,6 @@ public class ModBlocks {
         GameRegistry.registerBlock(SmelterActive, "SmelterActive");
         GameRegistry.registerBlock(BlockToolTable, "ModelToolTable");
         GameRegistry.registerBlock(steelBlock, "steelBlock");
+        GameRegistry.registerBlock(clear, "clear");
     }
 }

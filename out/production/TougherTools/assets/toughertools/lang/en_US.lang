@@ -81,16 +81,17 @@ item.toughertools:Exploder.name=Exploder
 item.toughertools:ExploderCore.name=Pyrotechnic core
 item.toughertools:Chipset.name=Computational chipset
 item.toughertools:Cable.name=Cable
+entity.CaveMite.name=Cave-Mite
 
 
 //tooltips
 toughertools.tooltip.botanical=§2Botania
 toughertools.tooltip.ae2=§3AE2
-toughertools.tooltip.thaumic=5Thaumcraft
+toughertools.tooltip.thaumic=§5Thaumcraft
 toughertools.tooltip.thermal=§4Thermal expansion
 toughertools.tooltip.tinkerer=§1Tinkers
 toughertools.tooltip.quasar=§6QuasarCraft
-toughertools.tooltip.
+toughertools.tooltip.mana=§3Current remaining mana :
 toughertools.tooltip.
 toughertools.tooltip.
 toughertools.tooltip.

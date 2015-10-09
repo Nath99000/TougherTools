@@ -25,12 +25,11 @@ public class TougherTools {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent preinit){
         LogHelper.info("PreInitialization beginning!");
+        ModItems.init();
         VanillaHandler.smelting();
-        Recipes.init();
         //
         ModEntity.register();
         ModBlocks.init();
-        ModItems.init();
         OreDict.init();
         VanillaHandler.init();
         Recipes.oreRecipe();
@@ -45,6 +44,7 @@ public class TougherTools {
         //
         com.nath99000.toughertools.init.TileEntity.init();
         NetworkRegistry.INSTANCE.registerGuiHandler(this, new GuiHandler());
+        Recipes.init();
         LogHelper.info("Initialization complete!");
     }
     @Mod.EventHandler

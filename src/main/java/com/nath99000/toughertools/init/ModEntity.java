@@ -1,7 +1,6 @@
 package com.nath99000.toughertools.init;
 
-import com.nath99000.toughertools.Entity.EntityMerchant;
-import com.nath99000.toughertools.Entity.ProjectileInk;
+import com.nath99000.toughertools.Entity.EntityCaveMite;
 import com.nath99000.toughertools.Entity.ProjectileLightning;
 import com.nath99000.toughertools.TougherTools;
 import cpw.mods.fml.common.registry.EntityRegistry;
@@ -16,16 +15,15 @@ public class ModEntity {
     }
 
     public static void registerEntity() {
-        createEntity(EntityMerchant.class, "Merchant", 0xFFFFFF, 0xAA1111, BiomeGenBase.plains);
+        createEntity(EntityCaveMite.class, "CaveMite", 0x333333, 0x555555, BiomeGenBase.stoneBeach, EnumCreatureType.monster);
         createProjectile(ProjectileLightning.class, "ProjectileLightning");
-        createProjectile(ProjectileInk.class, "InkRed");
     }
 
-    public static void createEntity(Class entityclass, String entityname, int solidColor, int  spotColor, BiomeGenBase biome){
+    public static void createEntity(Class entityclass, String entityname, int solidColor, int  spotColor, BiomeGenBase biome, EnumCreatureType type){
         int randomId = EntityRegistry.findGlobalUniqueEntityId();
         EntityRegistry.registerGlobalEntityID(entityclass, entityname, randomId);
         EntityRegistry.registerModEntity(entityclass, entityname, randomId, TougherTools.instance, 32, 1, true);
-        EntityRegistry.addSpawn(entityclass, 1, 0, 1, EnumCreatureType.creature, biome);
+        EntityRegistry.addSpawn(entityclass, 1, 0, 1, type, biome);
         createEgg(randomId, solidColor, spotColor);
     }
 

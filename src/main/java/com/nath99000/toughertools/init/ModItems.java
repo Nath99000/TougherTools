@@ -1,8 +1,7 @@
 package com.nath99000.toughertools.init;
 
+import com.nath99000.toughertools.Reference.Magic;
 import com.nath99000.toughertools.Reference.Names;
-import com.nath99000.toughertools.Reference.Reference;
-import com.nath99000.toughertools.block.ToolTable;
 import com.nath99000.toughertools.item.Ammunition.ItemExploderCore;
 import com.nath99000.toughertools.item.Ammunition.ItemSnowClip;
 import com.nath99000.toughertools.item.Casts.Cast;
@@ -15,13 +14,13 @@ import com.nath99000.toughertools.item.Miscellaneous.ItemSteelIngot;
 import com.nath99000.toughertools.item.Miscellaneous.ToolTablePad;
 import com.nath99000.toughertools.item.Tools.*;
 import com.nath99000.toughertools.item.Vanilla.*;
-import com.nath99000.toughertools.item.WeaponPyrotechnics.ItemLandmine;
+import com.nath99000.toughertools.item.Weaponry.Magic.ItemSpell;
+import com.nath99000.toughertools.item.Weaponry.WeaponPyrotechnics.ItemLandmine;
 import com.nath99000.toughertools.item.Weaponry.*;
 import com.nath99000.toughertools.item.Weaponry.ASchematic;
-import com.nath99000.toughertools.item.WeaponPyrotechnics.ItemExploder;
+import com.nath99000.toughertools.item.Weaponry.WeaponPyrotechnics.ItemExploder;
 import com.nath99000.toughertools.item.Wrapper.ItemSwordTT;
 import com.nath99000.toughertools.item.Wrapper.ItemTT;
-import com.nath99000.toughertools.item.Wrapper.SchematicTT;
 import com.nath99000.toughertools.item.Wrapper.UniqueTT;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
@@ -106,6 +105,8 @@ public class ModItems {
     public static Item Chipset = new ItemChipset();
     public static Item Wire = new ItemCable();
     public static Item tooltable = new ToolTablePad();
+    public static Item spellSpectator = new ItemSpell("Spectator", Magic.spellSpectator());
+
 
     public static Item SchematicScythe;
     public static Item SchematicDemonMace;
@@ -212,6 +213,12 @@ public class ModItems {
         registerSchematic(SchematicSnowballGun, SchematicSnowballGun2, "SnowZooka", Names.epic, false);
         registerSchematic(SchematicPlasmaBlade, SchematicPlasmaBlade2, "PlasmaBlade", Names.rare, false);
         registerSchematic(SchematicCleaver, SchematicCleaver2, "Cleaver", Names.legendary, false);
+        registerSchematic(SchematicLightning, SchematicLightning2, "LightningStaff", Names.godly, false); //scythe mace, masamune, dartgun
+        registerSchematic(SchematicScythe, SchematicScythe2, "Scythe", Names.common, false);
+        registerSchematic(SchematicDemonMace, SchematicDemonMace2, "DemonicMace", Names.godly, false);
+        registerSchematic(SchematicMasamune, SchematicMasamune2, "Masamune", Names.legendary, false);
+        registerSchematic(SchematicDartgun, SchematicDartgun2, "DartGun", Names.common, false);
+        GameRegistry.registerItem(spellSpectator, "spellSpectator");
     }
 
     private static void registerToolSet(Item[] picks, Item[] axes, Item[] shovels, Item[] swords, Item[] hoes, Item.ToolMaterial[] materials, String type, int harvestLevel, int maxUses, float efficiency, float damage){
