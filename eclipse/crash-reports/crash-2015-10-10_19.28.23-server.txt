@@ -1,0 +1,70 @@
+---- Minecraft Crash Report ----
+// I'm sorry, Dave.
+
+Time: 10/10/15 7:28 PM
+Description: Ticking memory connection
+
+java.lang.NullPointerException: Ticking memory connection
+	at com.nath99000.toughertools.item.Unique.Weaponry.Magic.Magic.spellSpectator(Magic.java:19)
+	at com.nath99000.toughertools.item.Unique.Weaponry.Magic.ItemSpell.onItemRightClick(ItemSpell.java:50)
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:164)
+	at net.minecraft.server.management.ItemInWorldManager.tryUseItem(ItemInWorldManager.java:345)
+	at net.minecraft.network.NetHandlerPlayServer.processPlayerBlockPlacement(NetHandlerPlayServer.java:576)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:74)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:122)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:241)
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:182)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:726)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.nath99000.toughertools.item.Unique.Weaponry.Magic.Magic.spellSpectator(Magic.java:19)
+	at com.nath99000.toughertools.item.Unique.Weaponry.Magic.ItemSpell.onItemRightClick(ItemSpell.java:50)
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:164)
+	at net.minecraft.server.management.ItemInWorldManager.tryUseItem(ItemInWorldManager.java:345)
+	at net.minecraft.network.NetHandlerPlayServer.processPlayerBlockPlacement(NetHandlerPlayServer.java:576)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:74)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:122)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:241)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@41807936
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:182)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:726)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8 (amd64) version 6.2
+	Java Version: 1.8.0_45, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1967743976 bytes (1876 MB) / 2112618496 bytes (2014 MB) up to 2112618496 bytes (2014 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx2048M -Xms2048M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1448 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1448} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar) 
+	UCHIJAAAA	TougherTools{1.7.10-10} [TougherTools] (TougherTools) 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['Player98'/3, l='Explosive test', x=-861.00, y=56.00, z=97.69]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

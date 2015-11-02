@@ -264,7 +264,7 @@ Details:
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Pickaxes
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Shovels
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Tools
-[09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Weaponry
+[09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.item.Unique.Weaponry
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.proxy
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.Reference
 [09:12:51] [Client thread/TRACE] [FML/]: Recursing into package com.nath99000.toughertools.tileentity

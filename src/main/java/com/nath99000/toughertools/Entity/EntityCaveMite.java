@@ -1,5 +1,6 @@
 package com.nath99000.toughertools.Entity;
 
+import com.nath99000.toughertools.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSilverfish;
 import net.minecraft.entity.Entity;
@@ -8,6 +9,7 @@ import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
@@ -112,7 +114,7 @@ public class EntityCaveMite extends EntityMob{
 
     protected Item getDropItem()
     {
-        return Item.getItemById(0);
+        return ModItems.StoneShard;
     }
 
     /**
@@ -201,5 +203,18 @@ public class EntityCaveMite extends EntityMob{
     public EnumCreatureAttribute getCreatureAttribute()
     {
         return EnumCreatureAttribute.ARTHROPOD;
+    }
+
+    protected void dropFewItems(boolean p_70628_1_, int p_70628_2_)
+    {
+        if (p_70628_1_)
+        {
+            int j = this.rand.nextInt(2 + p_70628_2_);
+
+            for (int k = 0; k < j; ++k)
+            {
+                this.dropItem(ModItems.caveEye, 1);
+            }
+        }
     }
 }

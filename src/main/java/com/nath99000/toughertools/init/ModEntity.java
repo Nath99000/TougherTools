@@ -1,7 +1,6 @@
 package com.nath99000.toughertools.init;
 
-import com.nath99000.toughertools.Entity.EntityCaveMite;
-import com.nath99000.toughertools.Entity.ProjectileLightning;
+import com.nath99000.toughertools.Entity.*;
 import com.nath99000.toughertools.TougherTools;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import net.minecraft.entity.EntityList;
@@ -16,7 +15,10 @@ public class ModEntity {
 
     public static void registerEntity() {
         createEntity(EntityCaveMite.class, "CaveMite", 0x333333, 0x555555, BiomeGenBase.stoneBeach, EnumCreatureType.monster);
+        createEntity(EntityDryad.class, "Dryad", 0x007700, 0x779977, BiomeGenBase.forest, EnumCreatureType.creature);
+        createEntity(EntityDireWolf.class, "DireWolf", 0xFFFFFF, 0xEEEEEE, BiomeGenBase.taiga, EnumCreatureType.creature);
         createProjectile(ProjectileLightning.class, "ProjectileLightning");
+        createProjectile(ProjectileBullet.class, "ProjectileBullet");
     }
 
     public static void createEntity(Class entityclass, String entityname, int solidColor, int  spotColor, BiomeGenBase biome, EnumCreatureType type){

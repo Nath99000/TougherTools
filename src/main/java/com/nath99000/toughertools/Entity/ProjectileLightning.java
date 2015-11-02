@@ -1,16 +1,10 @@
 package com.nath99000.toughertools.Entity;
 
-import com.nath99000.toughertools.Util.LogHelper;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.effect.EntityLightningBolt;
-import net.minecraft.entity.monster.EntityBlaze;
 import net.minecraft.entity.projectile.EntityThrowable;
-import net.minecraft.init.Blocks;
 import net.minecraft.util.*;
 import net.minecraft.world.World;
-
-import java.util.List;
 
 public class ProjectileLightning extends EntityThrowable {
     private static final String __OBFID = "CL_00001722";

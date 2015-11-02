@@ -1,17 +1,18 @@
 package com.nath99000.toughertools;
 
+import com.nath99000.toughertools.Handler.EventHandler;
 import com.nath99000.toughertools.Reference.Reference;
-import com.nath99000.toughertools.Util.LogHelper;
+import com.nath99000.toughertools.Reference.LogHelper;
 import com.nath99000.toughertools.crafting.ToolTableCraftingManager;
 import com.nath99000.toughertools.init.*;
 import com.nath99000.toughertools.proxy.IProxy;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
-import net.minecraftforge.common.DungeonHooks;
 
 @Mod(modid = Reference.Id, name = Reference.Name, version = Reference.Version)
 public class TougherTools {
@@ -26,6 +27,8 @@ public class TougherTools {
     public void preInit(FMLPreInitializationEvent preinit){
         LogHelper.info("PreInitialization beginning!");
         ModItems.init();
+        ModItems.initTech();
+        ModItems.initMagic();
         VanillaHandler.smelting();
         //
         ModEntity.register();
@@ -45,6 +48,8 @@ public class TougherTools {
         com.nath99000.toughertools.init.TileEntity.init();
         NetworkRegistry.INSTANCE.registerGuiHandler(this, new GuiHandler());
         Recipes.init();
+        Object eventHook = new EventHandler();
+        FMLCommonHandler.instance().bus().register(eventHook);
         LogHelper.info("Initialization complete!");
     }
     @Mod.EventHandler

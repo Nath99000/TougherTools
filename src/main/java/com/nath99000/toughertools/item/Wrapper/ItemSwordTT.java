@@ -11,7 +11,7 @@ import net.minecraft.item.ItemSword;
 public class ItemSwordTT extends ItemSword{
     public ItemSwordTT(ToolMaterial toolMaterial){
         super(toolMaterial);
-        this.setCreativeTab(TTTab.TabUnique);
+        this.setCreativeTab(TTTab.TTTab);
     }
 
     @Override

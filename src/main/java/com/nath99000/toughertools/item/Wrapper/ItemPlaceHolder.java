@@ -12,7 +12,7 @@ public class ItemPlaceHolder extends Item{
     public ItemPlaceHolder()
     {
         super();
-        this.setCreativeTab(TTTab.TabPlaceHolder);
+        this.setCreativeTab(TTTab.TTTab);
     }
 
     @Override

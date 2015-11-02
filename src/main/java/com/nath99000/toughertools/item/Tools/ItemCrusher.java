@@ -1,13 +1,7 @@
 package com.nath99000.toughertools.item.Tools;
 
-import com.nath99000.toughertools.init.ModItems;
-import com.nath99000.toughertools.item.Weaponry.ItemScythe;
 import com.nath99000.toughertools.item.Wrapper.ItemTT;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
 
 public class ItemCrusher extends ItemTT {
 

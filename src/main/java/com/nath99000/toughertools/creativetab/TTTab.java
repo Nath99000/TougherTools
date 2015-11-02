@@ -5,6 +5,7 @@ import com.nath99000.toughertools.init.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraft.util.StatCollector;
 
 public class TTTab
 {
@@ -18,60 +19,40 @@ public class TTTab
         @Override
     public String getTranslatedTabLabel()
         {
-            return "TougherTools";
+            return StatCollector.translateToLocal("toughertools.tab.normal");
+        }
+        @Override
+        public boolean hasSearchBar()
+        {
+            return true;
         }
     };
 
-    public static final CreativeTabs TabSchematic = new CreativeTabs(Reference.Id)
+    public static final CreativeTabs TabMagic = new CreativeTabs(Reference.Id)
     {
         @Override
         public Item getTabIconItem()
         {
-            return Items.map;
+            return ModItems.spellRain;
         }
         @Override
         public String getTranslatedTabLabel()
         {
-            return "TougherTools Schematics";
+            return StatCollector.translateToLocal("toughertools.tab.magic");
         }
     };
 
-    public static final CreativeTabs TabCasts = new CreativeTabs(Reference.Id)
+    public static final CreativeTabs TabTech = new CreativeTabs(Reference.Id)
+{
+    @Override
+    public Item getTabIconItem()
     {
-        @Override
-        public Item getTabIconItem()
-        {
-            return ModItems.CastIronInlay;
-        }
-        @Override
-        public String getTranslatedTabLabel()
-        {
-            return "TougherTools Casts";
-        }
-    };
-
-    public static final CreativeTabs TabPlaceHolder = new CreativeTabs(Reference.Id)
+        return ModItems.Bomb;
+    }
+    @Override
+    public String getTranslatedTabLabel()
     {
-        @Override
-        public Item getTabIconItem()
-        {
-            return ModItems.thaumsteel;
-        }
-        @Override
-        public String getTranslatedTabLabel()
-        {
-            return "TougherTools Placeholders";
-        }
-    };
-
-    public static final CreativeTabs TabUnique = new CreativeTabs(Reference.Id) {
-        @Override
-        public Item getTabIconItem() {
-            return ModItems.Cleaver;
-        }
-        @Override
-    public String getTranslatedTabLabel(){
-            return "TougherTools Unique";
-        }
-    };
+        return StatCollector.translateToLocal("toughertools.tab.tech");
+    }
+};
 }

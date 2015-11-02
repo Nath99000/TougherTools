@@ -1,23 +1,15 @@
 package com.nath99000.toughertools.init;
 
-import com.nath99000.toughertools.Reference.Reference;
 import com.nath99000.toughertools.crafting.ToolTableCraftingManager;
 import com.nath99000.toughertools.item.Miscellaneous.ItemCable;
-import com.nath99000.toughertools.item.Miscellaneous.ItemChipset;
-import com.nath99000.toughertools.item.Miscellaneous.ItemSteelIngot;
-import com.nath99000.toughertools.item.Weaponry.ItemBotaniaSword;
-import com.nath99000.toughertools.item.Weaponry.ItemLightningStaff;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
-
-import javax.annotation.Nullable;
 
 public class Recipes
 {
@@ -111,10 +103,20 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.ExploderCore), "RD ", "DTS", "RD ", 'R', new ItemStack(Items.redstone), 'D', new ItemStack(ModItems.DiamondChunk), 'T', new ItemStack(Blocks.tnt), 'S', new ItemStack(ModItems.SteelChunk));
         GameRegistry.addRecipe(new ItemStack(ModItems.Chipset), " I ", "IGI", "NPN", 'I', new ItemStack(ModItems.ironnugget), 'G', new ItemStack(Items.dye, 2), 'N', new ItemStack(Items.gold_nugget), 'P', new ItemStack(Items.paper));
         GameRegistry.addShapelessRecipe(stackIt(new ItemCable()), stackIt(Items.gold_nugget), stackIt(Items.slime_ball), stackIt(Items.gold_nugget), stackIt(Items.gold_nugget));
-        GameRegistry.addShapelessRecipe(stackIt(Items.slime_ball), stackIt(Items.water_bucket), stackBlock(Blocks.sand));
+        GameRegistry.addShapelessRecipe(stackIt(Items.slime_ball), stackIt(Items.water_bucket), stackIt(Blocks.sand));
         GameRegistry.addRecipe(stackIt(ModItems.Bomb), "$C$", "RXR", "$R$", '$', stackIt(ModItems.Chipset), 'C', stackIt(Items.clock), 'R', stackIt(ModItems.Wire), 'X', stackIt(ModItems.ExploderCore));
-        GameRegistry.addRecipe(stackIt(ModItems.Exploder), "STS", "CXC", "SSS", 'S', stackIt(ModItems.steel), 'T', stackBlock(Blocks.tnt), 'C', stackIt(ModItems.Wire), 'X', stackIt(ModItems.ExploderCore));
+        GameRegistry.addRecipe(stackIt(ModItems.Exploder), "STS", "CXC", "SSS", 'S', stackIt(ModItems.steel), 'T', stackIt(Blocks.tnt), 'C', stackIt(ModItems.Wire), 'X', stackIt(ModItems.ExploderCore));
         //GameRegistry.addShapelessRecipe(new ItemStack(ModItems.spellSpectator), stackIt(Items.slime_ball), stackIt(Items.glowstone_dust), stackIt(Items.redstone));
+        GameRegistry.addShapelessRecipe(stackIt(ModItems.spellBase, 2), stackIt(ModItems.StoneCutter), stackIt(ModItems.StoneShard), stackIt(ModItems.StoneShard), stackIt(ModItems.StoneShard), stackIt(ModItems.StoneShard));
+        GameRegistry.addShapelessRecipe(stackIt(ModItems.spellFireball), stackIt(ModItems.spellBase), stackIt(ModItems.magmablood), stackIt(Items.fire_charge), stackIt(ModItems.engraver));
+        GameRegistry.addRecipe(stackIt(ModItems.bubbleRing), " A ", "A B", " B ", 'A', stackIt(ModItems.runeAir), 'B', stackIt(ModItems.runeWater));
+        GameRegistry.addRecipe(new ItemStack(ModItems.bubbleRing), " A ", "A B", " B ", 'B', new ItemStack(ModItems.runeAir), 'A', new ItemStack(ModItems.runeWater));
+        GameRegistry.addRecipe(new ItemStack(ModItems.bubbleRing), " B ", "A A", " B ", 'A', new ItemStack(ModItems.runeAir), 'B', new ItemStack(ModItems.runeWater));
+        GameRegistry.addRecipe(new ItemStack(ModItems.bubbleRing), " A ", "B B", " A ", 'A', new ItemStack(ModItems.runeAir), 'B', new ItemStack(ModItems.runeWater));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.runeWater, 4), new ItemStack(Items.water_bucket), new ItemStack(ModItems.spellBase), new ItemStack(ModItems.spellBase), new ItemStack(ModItems.spellBase), new ItemStack(ModItems.spellBase));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.runeFire, 4), new ItemStack(Items.flint_and_steel), new ItemStack(ModItems.spellBase), new ItemStack(ModItems.spellBase), new ItemStack(ModItems.spellBase), new ItemStack(ModItems.spellBase));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.runeAir, 4), new ItemStack(Items.glass_bottle), new ItemStack(ModItems.spellBase), new ItemStack(ModItems.spellBase), new ItemStack(ModItems.spellBase), new ItemStack(ModItems.spellBase));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.runeEarth, 4), new ItemStack(Blocks.stone), new ItemStack(ModItems.spellBase), new ItemStack(ModItems.spellBase), new ItemStack(ModItems.spellBase), new ItemStack(ModItems.spellBase));
     }
 
     public static void toolrecipe(ToolTableCraftingManager craftingManager){
@@ -139,7 +141,7 @@ public class Recipes
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), " T ", "TWT", " T ", 'T', "ingotArdite", 'W', new ItemStack(Blocks.crafting_table)));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.BlockToolTable), " T ", "TWT", " T ", 'T', "ingotManyullyn", 'W', new ItemStack(Blocks.crafting_table)));
         GameRegistry.addRecipe(new ShapedOreRecipe(stackIt(ModItems.BotaniaSword), " S ", "BRB", "FTF", 'S', "ingotTerrasteel", 'B', "manaPetalBlack", 'R', "runeWrathB", 'F', "mysticFlowerRed", 'T', "livingwoodTwig"));
-
+        addShaplessOreRecipe(stackIt(ModItems.hyperCatalyst), "materialRealiyThread");
     }
 
     private static void addVertToolRecipe(Item output, ItemStack slot1, ItemStack slot2, ItemStack slot3, Item schematic){
@@ -162,12 +164,28 @@ public class Recipes
         return new ItemStack(item);
     }
 
-    public static ItemStack stackBlock(Block block){
+    public static ItemStack stackIt(Item item, int num){
+        return new ItemStack(item, num);
+    }
+
+    public static ItemStack stackIt(Block block){
         return new ItemStack(block);
     }
 
     private static void addIngotRecipe(Item ingot, Block block){
         GameRegistry.addShapelessRecipe(new ItemStack(ingot, 9), new ItemStack(block));
         GameRegistry.addRecipe(new ItemStack(block), "III", "III", "III", 'I', new ItemStack(ingot));
+    }
+
+    private static void addShaplessOreRecipe(ItemStack output, String input){
+        GameRegistry.addRecipe(new ShapedOreRecipe(output, "x  ", "   ", "   ", 'x', input));
+        GameRegistry.addRecipe(new ShapedOreRecipe(output, " x ", "   ", "   ", 'x', input));
+        GameRegistry.addRecipe(new ShapedOreRecipe(output, "  x", "   ", "   ", 'x', input));
+        GameRegistry.addRecipe(new ShapedOreRecipe(output, "   ", "x  ", "   ", 'x', input));
+        GameRegistry.addRecipe(new ShapedOreRecipe(output, "   ", " x ", "   ", 'x', input));
+        GameRegistry.addRecipe(new ShapedOreRecipe(output, "   ", "  x", "   ", 'x', input));
+        GameRegistry.addRecipe(new ShapedOreRecipe(output, "   ", "   ", "x  ", 'x', input));
+        GameRegistry.addRecipe(new ShapedOreRecipe(output, "   ", "   ", " x ", 'x', input));
+        GameRegistry.addRecipe(new ShapedOreRecipe(output, "   ", "   ", "  x", 'x', input));
     }
 }

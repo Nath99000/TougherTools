@@ -6,7 +6,7 @@ item.toughertools:StoneCutter.name=Stone cutter
 item.toughertools:BindingL2.name=Leather binding
 item.toughertools:ToolHeadW2.name=Wooden tool head
 item.toughertools:PickW2.name=Leather-bound wooden pickaxe
-item.toughertools:StoneShard.name=Stone shard
+item.toughertools:Stoneshard.name=Stone shard
 item.toughertools:PlateW1.name=Wooden plate
 item.toughertools:PlateW2.name=Wooden plate
 item.toughertools:Scraper.name=Stone scraper
@@ -57,11 +57,11 @@ item.toughertools:PickS3.name=Iron-bound stone pickaxe
 item.toughertools:PickS4.name=§6Gilded stone pickaxe
 item.toughertools:PickS5.name=§3Diamond-bound stone pickaxe
 tile.toughertools:SteelBlock.name=Block o' steel
-item.toughertools:Dagger.name=Steel dagger
+item.toughertools:dagger.name=Steel dagger
 item.toughertools:CastInlay.name=Inlay cast
 item.toughertools:CastPlate.name=Plate cast
-item.toughertools:DaggerAssasin.name=Assassin's dagger
-item.toughertools:Arcanesword.name=Arcane blade
+item.toughertools:daggerAssasin.name=Assassin's dagger
+item.toughertools:ArcaneSword.name=Arcane blade
 item.toughertools:PlasmaBlade.name=Plasma blade
 item.toughertools:LightningStaff.name=Staff of lightning
 tile.toughertools:ToolTable.name=Tool table
@@ -71,17 +71,71 @@ item.toughertools:Masamune.name=Honjo masamune
 item.toughertools:PlaceHolder.name=Place-holder
 item.toughertools:BotaniaSword.name=Botanical blade
 item.toughertools:IronNugget.name=Iron nugget
-item.toughertools:BlasterRed.name=Ink blaster
-item.toughertools:BlasterBlue.name=Ink blaster
-item.toughertools:BlasterYellow.name=Ink blaster
-item.toughertools:BlasterGreen.name=Ink blaster
-item.toughertools:BlasterBlack.name=Ink blaster
 item.toughertools:Bomb.name=Land-mine
 item.toughertools:Exploder.name=Exploder
 item.toughertools:ExploderCore.name=Pyrotechnic core
 item.toughertools:Chipset.name=Computational chipset
 item.toughertools:Cable.name=Cable
 entity.CaveMite.name=Cave-Mite
+entity.Dryad.name=Dryad
+entity.DireWolf.name=Dire-wolf
+item.toughertools:WaterStone.name=Blue stone
+item.toughertools:SpellSpectator.name=Spell of the Spectator
+item.toughertools:SpellRain.name=Spell of the Downpour
+item.toughertools:SpellShout.name=Spell of the Shout
+item.toughertools:SpellHeal.name=Spell of the Vitalization
+item.toughertools:SpellJuggernaut.name=Spell of the Juggernaut
+item.toughertools:Spellnull.name=Blank spell slate
+item.toughertools:SpellDiffuse.name=Spell of the Diffusion
+item.toughertools:SpellWhirlwind.name=Spell of the Whirlwind
+item.toughertools:SacrificeDagger.name=Dagger of sacrifice
+item.toughertools:BloodBottle.name=Bottle of blood
+item.toughertools:BloodBottleMob.name=Bottled animal blood
+tile.toughertools:BlockCrushedStone.name=Crushed stone
+item.toughertools:SlimeBottle.name=Bottled slime
+item.toughertools:BottledMarrow.name=Bottled marrow
+item.toughertools:WitherBloodBottle.name=Blood of the wither
+item.toughertools:DragonBloodBottle.name=Blood of the dragon
+item.toughertools:EnderBloodBottle.name=Ender blood
+item.toughertools:MagmaCreamBottle.name=Bottled magma cream
+item.toughertools:GhastlyBlood.name=Ghastly blood
+item.toughertools:CaveMiteEye.name=Cave-mite eye
+item.toughertools:InkBottle.name=Bottled ink
+item.toughertools:DarkStone.name=Dark orb
+item.toughertools:LightStone.name=Light orb
+item.toughertools:SpellFireball.name=Spell of the Blaze
+item.toughertools:SpellWither.name=Spell of the Skull
+item.toughertools:Engraver.name=Engraver
+item.toughertools:AerialCrown.name=§6Aerial crown
+item.toughertools:FireGloves.name=§4Igneous gauntlets
+item.toughertools:WaterGreaves.name=§1Aqueous greaves
+item.toughertools:EarthBoots.name=§2Earthen boots
+item.toughertools:SpellBurst.name=Spell of the Explosive spirit
+item.toughertools:SpellReBurst.name=Spell of the Implosive spirit
+item.toughertools:SpellExplode.name=Spell of the Pyrotechnical display
+item.toughertools:HyperCatalyst.name=§6Hyper-Catalyst
+item.toughertools:BubbleRing.name=Bubble ring
+item.toughertools:runeWater.name=Rune of Water
+item.toughertools:runeFire.name=Rune of Fire
+item.toughertools:runeWind.name=Rune of Air
+item.toughertools:runeEarth.name=Rune of Earth
+item.toughertools:SpellSunlight.name=Spell of the Sunlight
+item.toughertools:SpellMoonlight.name=Spell of the Moonlight
+item.toughertools:SpellEnder.name=Spell of the Ender junction
+item.toughertools:Orb.name=Stone orb
+item.toughertools:UberCatalyst.name=§5Über-catalyst
+item.toughertools:InfiniteCatalyst.name=§aCatalyst of one-thousand arms
+item.toughertools:WolfPelt.name=Wolf pelt
+tile.toughertools:Clear.name=Clear
+item.toughertools:Parsel.name=Parse-l
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
+item.toughertools:
 
 
 //tooltips
@@ -92,8 +146,19 @@ toughertools.tooltip.thermal=§4Thermal expansion
 toughertools.tooltip.tinkerer=§1Tinkers
 toughertools.tooltip.quasar=§6QuasarCraft
 toughertools.tooltip.mana=§3Current remaining mana :
-toughertools.tooltip.
-toughertools.tooltip.
-toughertools.tooltip.
-toughertools.tooltip.
-toughertools.tooltip.
+toughertools.tooltip.waterstone=A small stone, painted blue...
+toughertools.tooltip.inactive=Unlinked
+toughertools.tooltip.activate=Right-click to activate
+toughertools.tooltip.home=Home-point :
+toughertools.tooltip.hyper=§6HYPER :
+
+
+//tabs
+toughertools.tab.magic=TougherTools §5Arcane
+toughertools.tab.tech=TougherTools §4Tech
+toughertools.tab.normal=TougherTools
+
+//parsel names
+parsel.bday=Happy birthday to me...
+parsel.halloween=OoooOOhh... spooky...
+parsel.tree=Merry christmas. or else.

@@ -13,7 +13,7 @@ public class SchematicTT extends Item{
     public SchematicTT()
     {
         super();
-        this.setCreativeTab(TTTab.TabSchematic);
+        this.setCreativeTab(TTTab.TTTab);
     }
 
     @Override

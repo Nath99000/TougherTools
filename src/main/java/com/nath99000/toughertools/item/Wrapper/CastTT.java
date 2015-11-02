@@ -13,7 +13,7 @@ public class CastTT extends Item
     public CastTT()
     {
         super();
-        this.setCreativeTab(TTTab.TabCasts);
+        this.setCreativeTab(TTTab.TTTab);
     }
 
     @Override
